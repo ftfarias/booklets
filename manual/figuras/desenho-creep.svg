@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 487 175" font-family="Libertinus Serif" font-size="13" fill="#333">
+<path d="M 340.6 42 L 100 42 A 38 38 0 0 0 100 118 L 340.6 118" fill="none" stroke="#3b3b3b" stroke-width="2.2"/>
+<path d="M 368.9 51 L 100 51 A 29 29 0 0 0 100 109 L 368.9 109" fill="none" stroke="#555" stroke-width="2.2"/>
+<path d="M 397.2 60 L 100 60 A 20 20 0 0 0 100 100 L 397.2 100" fill="none" stroke="#6f6f6f" stroke-width="2.2"/>
+<path d="M 425.4 69 L 100 69 A 11 11 0 0 0 100 91 L 425.4 91" fill="none" stroke="#8a8a8a" stroke-width="2.2"/>
+<line x1="334.6" y1="24" x2="334.6" y2="136" stroke="#b03a2e" stroke-width="1.4" stroke-dasharray="5 4"/>
+<text x="334.6" y="18" text-anchor="middle" fill="#b03a2e">linha de refile</text>
+<line x1="340.6" y1="150" x2="425.4" y2="150" stroke="#333"/>
+<line x1="340.6" y1="145" x2="340.6" y2="155" stroke="#333"/>
+<line x1="425.4" y1="145" x2="425.4" y2="155" stroke="#333"/>
+<text x="383.0" y="168" text-anchor="middle" font-style="italic">creep</text>
+<text x="54" y="84" text-anchor="end">lombada</text>
+<text x="160" y="84" fill="#666">4 folhas do mesmo tamanho</text>
+<text x="483" y="84" text-anchor="end" fill="#666">goteira</text>
+</svg>

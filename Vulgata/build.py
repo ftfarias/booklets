@@ -1,0 +1,161 @@
+#!/usr/bin/env python3
+"""
+Build Typst fragments for the Vulgata bilingual booklet.
+  Latin : Clementine Vulgate  (public domain)
+  PT    : Almeida Revista e Corrigida (public domain)
+
+Emits typst/<book>.typ with chapter-aligned parallel text.
+"""
+import json, re, sys, unicodedata
+from pathlib import Path
+
+ROOT = Path(__file__).parent
+RAW, CLEAN, TYP = ROOT/"raw", ROOT/"clean", ROOT/"typst"
+CLEAN.mkdir(exist_ok=True); TYP.mkdir(exist_ok=True)
+
+WORKS = [
+    # (latin key, pt abbrev, slug, chapter filter or None)
+    ("Ecclesiastes",     "ec",  "ecclesiastes", None),
+    ("Song of Solomon",  "ct",  "canticum",     None),
+    ("1 Corinthians",    "1co", "caritas",      [13]),
+]
+
+# ── Vulgate/Hebrew chapter-division shifts ────────────────────────────
+# The Vulgate breaks some chapters one verse earlier or later than the
+# Hebrew text the Almeida follows. Each entry says: to pair chapter N,
+# move this many verses of the PT column. Verified verse by verse.
+#   'lat_tail_is_pt_next': Vulgate's last verse opens the next PT chapter
+#                          (pull one PT verse back from the next chapter)
+#   'pt_tail_is_lat_next': PT's last verse opens the next Vulgate chapter
+#                          (push one PT verse forward to the next chapter)
+#   'pt_head_extra'      : PT has a leading verse the Vulgate lacks
+SHIFTS = {
+    ("ec", 4): "lat_tail_is_pt_next",   # Vg 4:17 == PT 5:1
+    ("ec", 6): "pt_tail_is_lat_next",   # PT 6:12 opens Vg 7 — chains into 7/8
+    ("ct", 1): "pt_head_extra",         # PT 1:1 is the title; Vg has no verse
+    ("ct", 5): "lat_tail_is_pt_next",   # Vg 5:17 == PT 6:1
+}
+
+def load():
+    lat = json.load(open(RAW/"vul_raw.json", encoding="utf-8"))
+    pt  = json.load(open(RAW/"pt_aa.json",  encoding="utf-8-sig"))
+    return lat, {b["abbrev"]: b for b in pt}
+
+# ── Source-text errata ────────────────────────────────────────────────
+# Typos in the public-domain source files, verified individually against
+# the Latin. Keyed (abbrev, chapter, verse) -> (wrong, right).
+PT_ERRATA = {
+    ("ec", 1, 10): ("Voê,", "Vê,"),                    # OCR: Ecce -> "Vê"
+    ("ec", 4,  5): ("a sua; própria", "a sua própria"), # stray semicolon
+    ("ct", 6,  6): ("0s teus", "Os teus"),              # digit 0 for letter O
+}
+
+def apply_pt_errata(abbrev, chapter, verse_no, text):
+    fix = PT_ERRATA.get((abbrev, chapter, verse_no))
+    if not fix:
+        return text
+    wrong, right = fix
+    if wrong not in text:
+        raise SystemExit(
+            f"errata stale: {abbrev} {chapter}:{verse_no} no longer contains "
+            f"{wrong!r} — re-verify against the source before building."
+        )
+    return text.replace(wrong, right)
+
+def clean_latin(v: str) -> str:
+    """Strip the scraper's poetic-strophe brackets; normalise whitespace."""
+    v = v.replace("[", "").replace("]", "")
+    v = re.sub(r"\s+", " ", v).strip()
+    return v
+
+def esc(s: str) -> str:
+    """Escape Typst markup characters."""
+    for ch in ("\\", "#", "$", "*", "_", "`", "<", ">", "@", "~"):
+        s = s.replace(ch, "\\" + ch)
+    return s
+
+def chapters(lat_book, pt_book, abbrev):
+    """Yield (chapter_no, [latin verses], [pt verses]) realigned across the
+    Vulgate/Hebrew chapter-division shifts."""
+    pt_ch = pt_book["chapters"]
+    lat = [[clean_latin(v) for v in ch if v.strip()] for ch in lat_book]
+    pt  = [list(ch) for ch in pt_ch]
+
+    # Apply shifts front to back so each fix feeds the next chapter.
+    for i in range(len(lat)):
+        kind = SHIFTS.get((abbrev, i + 1))
+        if kind == "lat_tail_is_pt_next" and i + 1 < len(pt):
+            # Vulgate's trailing verse belongs to the next PT chapter: pull
+            # that PT verse back to pair with it.
+            if pt[i + 1]:
+                pt[i].append(pt[i + 1].pop(0))
+        elif kind == "pt_tail_is_lat_next" and i + 1 < len(pt):
+            # PT's trailing verse opens the next Vulgate chapter: push it
+            # forward so it pairs there.
+            if pt[i]:
+                pt[i + 1].insert(0, pt[i].pop())
+        elif kind == "pt_head_extra":
+            # PT carries a heading verse the Vulgate does not versify.
+            if pt[i]:
+                pt[i].pop(0)
+
+    # Apply errata against the ORIGINAL chapter/verse numbering, before the
+    # shifted rows are handed out.
+    for ci, ch in enumerate(pt_ch, 1):
+        for vi in range(len(ch)):
+            fixed = apply_pt_errata(abbrev, ci, vi + 1, ch[vi])
+            if fixed != ch[vi]:
+                for sh in pt:                     # locate the verse post-shift
+                    for k, t in enumerate(sh):
+                        if t == ch[vi]:
+                            sh[k] = fixed
+    for i, L in enumerate(lat):
+        yield i + 1, L, (pt[i] if i < len(pt) else [])
+
+def emit(slug, title_lat, title_pt, lat_book, pt_book, abbrev, only=None):
+    out = [
+        '#import "helpers.typ": *',
+        '',
+        f'// {title_lat} — generated by build.py; do not edit by hand.',
+        '',
+    ]
+    stats = {"verses": 0, "lat_words": 0, "pt_words": 0, "mismatch": []}
+    for n, L, P in chapters(lat_book, pt_book, abbrev):
+        if only and n not in only:
+            continue
+        if len(L) != len(P):
+            stats["mismatch"].append((n, len(L), len(P)))
+        out.append(f"#chapnum[{n}]")
+        out.append("")
+        # pad the shorter side so every verse still gets a row
+        span = max(len(L), len(P))
+        for k in range(span):
+            lv = L[k] if k < len(L) else ""
+            pv = P[k] if k < len(P) else ""
+            stats["verses"] += 1
+            stats["lat_words"] += len(lv.split())
+            stats["pt_words"]  += len(pv.split())
+            out.append(f"#v_({k+1})[{esc(lv)}][{esc(pv)}]")
+        out.append("")
+    (TYP/f"{slug}.typ").write_text("\n".join(out), encoding="utf-8")
+    return stats
+
+def main():
+    lat, ptm = load()
+    report = {}
+    for lkey, pabbr, slug, only in WORKS:
+        st = emit(slug, lkey, ptm[pabbr]["name"], lat[lkey], ptm[pabbr],
+                  pabbr, only)
+        report[slug] = st
+        m = st["mismatch"]
+        print(f"{slug:14s} verses {st['verses']:4d}  "
+              f"lat {st['lat_words']:5d}w  pt {st['pt_words']:5d}w  "
+              f"mismatched chapters: {len(m)}")
+        for c, a, b in m:
+            print(f"                 ch{c}: lat {a} vs pt {b}")
+    json.dump(report, open(CLEAN/"report.json", "w"), indent=2)
+    tot = sum(s["lat_words"] for s in report.values())
+    print(f"\nTOTAL latin words: {tot}")
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,20 @@
+{
+  "ecclesiastes": {
+    "verses": 222,
+    "lat_words": 3823,
+    "pt_words": 5268,
+    "mismatch": []
+  },
+  "canticum": {
+    "verses": 116,
+    "lat_words": 1799,
+    "pt_words": 2570,
+    "mismatch": []
+  },
+  "caritas": {
+    "verses": 13,
+    "lat_words": 193,
+    "pt_words": 251,
+    "mismatch": []
+  }
+}
