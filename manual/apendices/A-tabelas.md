@@ -310,11 +310,11 @@ Cada bloco indica o capítulo de origem, onde está o porquê.
 
 | Técnica | Dificuldade | Comporta-se bem com cola? | Veredito |
 |---|---|---|---|
-| **Paste paper** (grude + pigmento) | baixa | ✅ perfeitamente | ✅ **se for escolher uma, é esta** |
-| Marmorizado clássico | alta | ✅ | ✅ o padrão histórico |
-| Suminagashi (nanquim na água) | baixa | ✅ | ✅ muito mais simples que carragena |
+| **Paste paper** (engrudo + pigmento) | baixa | ✅ em camada fina de cola | ✅ **se for escolher uma, é esta** |
+| Suminagashi (nanquim na água) | baixa | ✅ | ✅ a porta de entrada da marmorização |
+| Marmorizado em carragena | alta | ✅ | ✅ o padrão histórico |
 | Orizomegami (dobra + corante) | muito baixa | ⚠️ corante: teste com a cola | ✅ 5 minutos, resultado elegante |
-| Gelli plate / monotipia acrílica | baixa | ✅ acrílico seco não reage | ✅ |
+| Gelli plate / monotipia acrílica | baixa | ✅ acrílico seco não reage | ✅ em camada fina |
 | Cianotipia | média | ✅ o azul é insolúvel | ✅ sofisticadíssima em 1/4 de couro |
 | Xilogravura / carimbo | média | ⚠️ depende da tinta e da cobertura | ✅ com motivo linear |
 | Aquarela abstrata | baixa | ⚠️ reativa com água | ✅ **se tratada como superfície** |

@@ -1215,7 +1215,7 @@ Offset 80 g ≈ 0,10 mm por folha; Pólen Bold 90 ≈ 0,13–0,14 mm — é por 
 - Vai receber texto pequeno em jato de tinta? → liso e pouco absorvente (opalina), nunca texturizado.
 - Vai ser lido por 300 páginas? → pólen ou offset. Opacidade e ausência de brilho valem mais que nitidez.
 - Vai receber cola d'água? → 120 g/m² em vez de 80; o fino ondula e enruga.
-- Vai durar? → alcalino, tamponado, com reserva de carbonato (ISO 9706). "Livre de ácidos" no marketing #strong[não] é a mesma coisa.
+- Vai durar? → alcalino, tamponado, com reserva de carbonato (ISO 9706). "Livre de ácidos" no marketing #strong[não] é a mesma coisa. Para conferir a reserva numa apara, o teste de efervescência do cap. 18. (Exceção: azul da Prússia e cianotipia pedem justamente papel #strong[sem] reserva — cap. 18.)
 
 #v(0.6em)
 
@@ -5482,11 +5482,11 @@ Observações de 2026. Ao reler, anote ao lado o que mudou e quando.
 #tabela(4)(
   ([Técnica], [Dificuldade], [Comporta-se bem com cola?], [Veredito]),
   (
-    [#strong[Paste paper] (grude + pigmento)], [baixa], [✅ perfeitamente], [✅ #strong[se for escolher uma, é esta]],
-    [Marmorizado clássico], [alta], [✅], [✅ o padrão histórico],
-    [Suminagashi (nanquim na água)], [baixa], [✅], [✅ muito mais simples que carragena],
+    [#strong[Paste paper] (engrudo + pigmento)], [baixa], [✅ em camada fina de cola], [✅ #strong[se for escolher uma, é esta]],
+    [Suminagashi (nanquim na água)], [baixa], [✅], [✅ a porta de entrada da marmorização],
+    [Marmorizado em carragena], [alta], [✅], [✅ o padrão histórico],
     [Orizomegami (dobra + corante)], [muito baixa], [⚠️ corante: teste com a cola], [✅ 5 minutos, resultado elegante],
-    [Gelli plate / monotipia acrílica], [baixa], [✅ acrílico seco não reage], [✅],
+    [Gelli plate / monotipia acrílica], [baixa], [✅ acrílico seco não reage], [✅ em camada fina],
     [Cianotipia], [média], [✅ o azul é insolúvel], [✅ sofisticadíssima em 1/4 de couro],
     [Xilogravura / carimbo], [média], [⚠️ depende da tinta e da cobertura], [✅ com motivo linear],
     [Aquarela abstrata], [baixa], [⚠️ reativa com água], [✅ #strong[se tratada como superfície]],
@@ -5507,36 +5507,245 @@ Três perguntas, nesta ordem:
 + #strong[Ela forma filme espesso na superfície?] Filme espesso resiste à cola (a guarda descola) e #strong[trinca quando o papel vira na aresta da capa e nos cantos]\.
 + #strong[A fibra corre paralela à lombada?] Se não, a guarda enruga e empena a capa quando a cola secar. Decida a direção #strong[antes] de decorar a folha — não tem nada mais frustrante que uma cianotipia perfeita atravessada.
 
-#strong[Teste da fibra:] rasgue uma tirinha do canto do papel. Ela rasga reto no sentido da fibra e serrilhado no outro.
+#strong[Teste da fibra:] rasgue uma tirinha do canto do papel. Ela rasga reto no sentido da fibra e serrilhado no outro. (Outros testes no cap. 5.)
+
+#heading(level: 3)[Que papel, que gramatura]
+
+O papel decorado entra no livro de dois jeitos, e a gramatura muda:
+
+- #strong[É a própria guarda:] segue a guarda do cap. 11 — #strong[120–150 g/m²], até 180 em livro grande.
+- #strong[Vai colado sobre uma guarda lisa] (o conselho de Cockerell para o marmorizado, cap. 11) ou reveste a capa: pode ser mais leve, #strong[90–120 g/m²]\. A folha lisa faz a estrutura; a decorada só dá a cor.
+
+Em qualquer caso, papel que aguente molhar: offset bom, papel de desenho, papel japonês. Couché não serve para nada deste capítulo.
 
 #v(0.6em)
 
-#heading(level: 2)[Por que o marmorizado funciona tão bem]
+#heading(level: 2)[O que faz um papel decorado funcionar]
 
-Não é tradição só por tradição. Marmorizado tem características que combinam com livro:
+O marmorizado é o padrão histórico, e não é tradição só por tradição. Ele tem quatro características que combinam com livro:
 
 - #strong[é padrão de campo] — cobre a folha inteira, sem ponto focal;
 - #strong[não tem gesto de mão visível]\;
 - #strong[paleta limitada]\;
 - #strong[não tem "assunto"]\.
 
-Isso importa porque a guarda ou a capa é fundo — ela não pode competir com o livro. Toda alternativa que respeita esses quatro pontos funciona; toda que os viola parece trabalho escolar, seja qual for a técnica.
-
-#regra[Este capítulo cobre as alternativas ao marmorizado e o bloco de tingimento com azul da Prússia. #strong[Há material adicional sobre marmorização propriamente dita (carragena, alúmen, fel de boi, padrões) em outro capítulo do manual.]]
+Isso importa porque a guarda ou a capa é fundo — ela não pode competir com o livro. Toda técnica deste capítulo que respeita esses quatro pontos funciona; toda que os viola parece trabalho escolar, seja qual for a técnica.
 
 #v(0.6em)
 
-#heading(level: 2)[As alternativas que valem a pena]
+#heading(level: 2)[Paste paper (papel de engrudo)]
 
-#heading(level: 3)[Paste paper (papel de grude)]
-
-O irmão histórico do marmorizado — alemão, século XVIII. Mistura-se #strong[grude de trigo com pigmento ou guache], espalha-se na folha e #strong[desenha-se retirando]: pente, esponja, rolo entalhado, dedo, borracha cortada.
+Papel coberto de #strong[engrudo colorido], desenhado #strong[retirando] a cor: pente, cartão dentado, rolo, carimbo, dedo. É um dos papéis decorados mais antigos — usado em capas e guardas do século XVI ao XVIII, sobretudo em livros alemães e italianos (os alemães o chamam #emph[Kleisterpapier]). Zaehnsdorf, em 1890, ainda o recomendava como o papel que o encadernador "faz facilmente para si", muito usado na Alemanha para cobrir livros.
 
 Barato, quase infalível, e tem exatamente a qualidade de padrão de campo que o livro pede. #strong[Se fosse escolher uma só técnica, seria esta.]
 
-Receita com pigmento: cozinhe amido de trigo, dilua até consistência de creme, incorpore #strong[5–10% de pigmento sobre o peso da pasta]\. Aplique com pincel largo em papel levemente umedecido e, se quiser padrão, passe pente, rolo ou carimbo. Neutro, fosco, superfície linda, historicamente correta. Ideal para capas.
+#heading(level: 3)[A pasta]
 
-#heading(level: 3)[Aquarela abstrata — tratada como superfície]
+- #strong[Base:] engrudo de amido de trigo, a receita do cap. 10 (1 : 5 de água, cozido até translúcido, coado). Frio.
+- #strong[Consistência:] dilua com água até #strong[um pouco mais grosso que creme de leite] (a medida de Zaehnsdorf). Grossa demais, o pente arranca em placas; rala demais, o desenho se fecha sozinho.
+- #strong[Cor:] #strong[5–10% de pigmento sobre o peso da pasta], moído antes com um pouco d'água; ou guache ou acrílico de boa marca, até o tom. A cor seca #strong[mais clara] do que parece molhada — faça uma tira de teste.
+- #strong[Uma gota de sabão ou detergente neutro] por pote. A receita de Zaehnsdorf já levava "um pouco de sabão": a pasta corre por igual e não forma ilhas.
+
+Uma cor por pote; duas ou três cores próximas bastam para uma folha.
+
+#heading(level: 3)[Passo a passo]
+
++ #strong[Umedeça a folha] dos dois lados com esponja e assente numa superfície lisa e lavável — vidro, acrílico, fórmica. Passe a esponja do centro para fora até não sobrar bolha. A umidade dá tempo de trabalho e impede que a folha ondule debaixo da pasta.
++ #strong[Espalhe a pasta] com pincel largo, em passadas cruzadas, de borda a borda. Camada uniforme, nem rala nem grossa.
++ #strong[Desenhe retirando.] Um gesto que se repete pela folha toda: pente em ondas, cartão dentado em linhas paralelas, rolo, carimbo pressionado e levantado. É o gesto repetido que faz o padrão de campo.
++ #strong[Errou? Repasse o pincel] e desenhe de novo. Enquanto a pasta está úmida, dá para refazer quantas vezes quiser — é por isso que é quase infalível.
++ #strong[Levante pela ponta] e seque pendurado num varal (como Zaehnsdorf) ou plano sobre jornal.
++ #strong[Prense.] Seca, a folha ondula. Umedeça o verso de leve e prense entre mata-borrões sob peso, uma noite.
++ #strong[Lustro, se quiser.] Zaehnsdorf passava ferro quente na face. Hoje: ferro de passar morno, com papel limpo por cima. Ou deixe fosco.
+
+#heading(level: 3)[Ferramentas de retirar]
+
+Quase tudo se improvisa: #strong[cartão ou papelão recortado em dentes] (cada espaçamento dá um padrão), #strong[rodo de pia] com a borracha dentada, garfo, cartão de crédito velho, rolo de espuma ou de borracha com sulcos, carimbos de borracha, a ponta dos dedos. A plotter corta pentes de cartão ou acetato com espaçamento exato (cap. 17).
+
+#heading(level: 3)[Papel puxado]
+
+A variação mais antiga, e a que Zaehnsdorf descreve: espalhe a pasta em #strong[duas folhas], junte-as face com face, esfregue de leve e #strong[descole devagar]\. Sai um desenho de veios e penas, diferente nas duas folhas. Um barbante ou tiras de feltro entre as folhas deixam linhas claras onde estavam.
+
+#heading(level: 3)[Na hora de colar]
+
+A camada de cor é engrudo, e engrudo amolece com água. Cola no #strong[verso], em camada fina, sem encharcar, e a face não se mexe. Para capa que vai ser muito manuseada, há receitas modernas que juntam um pouco de PVA à pasta colorida: resiste mais à esfrega e é menos reversível. Teste antes de adotar.
+
+#v(0.6em)
+
+#heading(level: 2)[Marmorização]
+
+#heading(level: 3)[Como funciona]
+
+As tintas, preparadas com #strong[fel], flutuam num #strong[banho espessado] com goma. Cada cor nova empurra as anteriores. Depois desenha-se a superfície com estilete e pente, e uma folha #strong[tratada com alúmen] é deitada sobre o banho e recolhe a tinta. Cada folha é uma monotipia: um banho de tinta, uma folha.
+
+Zaehnsdorf resume o princípio em uma frase: #strong[os veios são as primeiras gotas de cor], que tomam essa forma porque as cores seguintes as empurram.
+
+#heading(level: 3)[Um pouco de história]
+
+- #strong[Japão.] O #emph[suminagashi] aparece numa antologia de poemas do começo do século XII, a #emph[Sanjūrokunin kashū] do templo Nishi Honganji, em Quioto (c. 1112). Costuma ser citada como o exemplo mais antigo de papel marmorizado que se conhece.
+- #strong[Pérsia e Turquia.] É o #emph[ebru]\. Segundo Roberts & Etherington, os persas foram os primeiros a usar marmorizado em livros, nas margens de manuscritos do século XVI.
+- #strong[Europa.] Em uso na Holanda em 1598, na Inglaterra desde c. 1655 e comum lá nos anos 1670. Os ingleses do século XIX contavam que o papel holandês entrava no país embrulhando brinquedos, para escapar da taxa, e era desembrulhado e vendido caro aos encadernadores. A história vem de Woolnough e é repetida por Nicholson (1856) e Zaehnsdorf (1890).
+- #strong[A goma mudou.] O manual de Woolnough, adaptado por Nicholson, usa #strong[goma tragacanto] e chama a carragena de "dispensável". A carragena entrou depois de meados do século XIX e é a goma de hoje.
+- #strong[O alúmen também.] Nicholson não passa alúmen no papel: moía as cores com uma preparação de cera de abelha e sabão, "para não sair na mão" e poder brunir. O papel com alúmen é o método que se ensina hoje.
+- #strong[Os padrões têm data.] O #emph[Old Dutch] penteado é de meados do século XVII; #emph[French shell] e #emph[stormont], do fim do XVIII; o #emph[nonpareil] entra por volta de 1838 e domina o século XIX — com um ar mecânico que Roberts & Etherington apontam. Escolher o padrão é escolher a época que o livro evoca.
+
+#heading(level: 3)[Por onde começar]
+
+Quase todo mundo começa pelo marmorizado em carragena, se frustra em três sessões e desiste. A ordem que funciona:
+
++ #strong[Suminagashi] (seção seguinte). Água pura, nanquim, sem goma e sem alúmen. Ensina o que é tinta flutuando e tensão superficial, por quase nada.
++ #strong[Carragena], em lote pequeno. Definição máxima, veios finos.
++ #strong[Metilcelulose] como alternativa. Dissolve fria, não fermenta, aguenta o calor — mas define menos, faz espuma e pede descanso mais longo. A Dharma Trading não a recomenda a iniciante; a conversa de origem a punha antes da carragena, como ponte. #strong[Vale testar as duas no mesmo dia, com as mesmas tintas.]
+
+#heading(level: 3)[Material]
+
+#tabela(2)(
+  ([Item], [Observação]),
+  (
+    [#strong[Bandeja]], [3–5 cm maior que o papel em cada lado, 5–7 cm de fundo. Bandeja de revelação, inox, caixa plástica rasa. Nivelada],
+    [#strong[Carragena em pó]], [ou metilcelulose, para o banho],
+    [#strong[Alúmen]], [pedra-ume (sulfato duplo de alumínio e potássio) — farmácia de manipulação, casa de produtos químicos],
+    [#strong[Tintas]], [acrílico de marmorização (Jacquard) ou acrílico de boa marca diluído; guache também funciona],
+    [#strong[Fel]], [fel de boi líquido de loja de arte, ou o sintético dos kits],
+    [#strong[Pincéis]], [um por cor; cerda dura ou vassourinha de piaçava, para salpicar],
+    [#strong[Estilete e pentes]], [palito ou agulha de tricô; pente = ripa de madeira com alfinetes. A plotter corta o gabarito de furação (cap. 17)],
+    [#strong[Tiras de jornal]], [da largura da bandeja, para limpar a superfície],
+    [#strong[Água]], [filtrada; destilada se a da torneira for dura],
+    [#strong[Varal ou tábua inclinada]], [para enxaguar e secar]
+  )
+)
+
+#strong[Pigmentos antigos, não.] Os manuais do século XIX usam vermelhão e zarcão — mercúrio e chumbo. Fique nos acrílicos.
+
+#heading(level: 3)[O banho de carragena]
+
+- #strong[Proporção:] a da Dharma Trading é #strong[2 colheres de sopa de carragena para um galão (\~3,8 L) de água morna]\. Outros fornecedores variam; siga a do pacote e ajuste pela consistência.
+- #strong[Preparo:] liquidificador por \~10 minutos, ou batedor até não sobrar grumo. #strong[Descanse 12 horas] antes de usar. As bolhas sobem nesse tempo; as que sobrarem, puxe com jornal.
+- #strong[Temperatura:] banho, tintas e sala na mesma temperatura. Diferença de temperatura muda o comportamento das cores.
+- #strong[Validade:] poucos dias fora da geladeira, uma a duas semanas dentro. #strong[No verão brasileiro, conte com menos] — carragena fermenta em dois dias no calor. Faça lote pequeno. Mofo, cheiro ou banho que afinou: jogue fora.
+- #strong[A consistência certa] (Nicholson): se as gotas giram e perdem a forma, sobretudo nos cantos, o banho está #strong[ralo]\; se o pente encontra resistência e as gotas trincam e demoram a abrir, está #strong[grosso] — junte água.
+
+#heading(level: 3)[O alúmen no papel]
+
+Sem alúmen, a tinta sai inteira no enxágue — é a causa número um de "lavou tudo". Ele faz a ponte química entre a tinta e a fibra.
+
+- #strong[Dose:] as fontes vão de \~10 g por litro (Dharma: 2 colheres de chá por quarto de galão) a 30–50 g/L (a conversa de origem). #strong[Comece pela menor] e só aumente se a tinta sair no enxágue.
+- #strong[Aplicação:] dissolva em água morna. Passe com esponja #strong[num lado só], por igual. Marque o outro lado com um X a lápis. Seque, prense, e use em #strong[até dois dias]\.
+- #strong[Nada de alúmen no banho.] Gota de alúmen na carragena estraga as folhas seguintes: a tinta para de pegar. Não deixe a folha sobre o banho mais que o necessário e lave a bandeja antes de voltar a marmorizar nela.
+
+#regra[⚠️ #strong[O alúmen deixa o papel ácido.] A solução tem pH 3–4 e o sal cristaliza na fibra (Matija Strlic, na lista de conservação CoOL). Excesso deixa o papel quebradiço e amarelado com o tempo. Para livro que deve durar: #strong[a menor dose que segura a tinta], papel bom, e o marmorizado colado sobre uma guarda lisa — a folha de baixo faz barreira. Conservadores sugerem ainda desacidificar o verso depois, com produto aquoso. (Com azul da Prússia, não: álcali destrói o azul.)]
+
+#heading(level: 3)[Tintas e fel]
+
+- #strong[Diluição:] acrílico com água até #strong[consistência de leite]\.
+- #strong[Fel:] algumas gotas por pote. #strong[Teste cada cor]: uma gota solta rente ao banho deve abrir num círculo e ficar na superfície.
+- #strong[Afunda] → falta fel; ou o banho está velho ou ralo; ou a gota caiu de
+- #strong[Abre demais e fica pálida] → fel demais; junte tinta sem fel.
+- #strong[A regra de ordem] (Nicholson): #strong[cada cor leva um pouco mais de fel que a anterior], e a última — a cor de fundo — é a mais carregada. A que tem mais fel empurra as outras.
+- #strong[Lote é lote] (Zaehnsdorf): em todas as folhas, a mesma ordem e a mesma quantidade de cada cor. Senão a segunda folha sai de outra cor.
+
+#heading(level: 3)[Uma folha, passo a passo]
+
++ #strong[Limpe a superfície:] arraste uma tira de jornal pela largura da bandeja. Tira a película que se forma no banho — sem isso as gotas abrem em estrela.
++ #strong[Solte as cores], rente, na ordem, salpicando com o pincel.
++ #strong[Desenhe o padrão] (abaixo). Trabalhe rápido: passados uns 4 minutos, a tinta começa a se partir.
++ #strong[Deite o papel], lado do alúmen para baixo. Segure por cantos opostos, encoste um canto primeiro e baixe a folha em curva até assentar. Ar preso embaixo vira mancha branca.
++ #strong[Levante] por uma borda, arrastando-a sobre a beira da bandeja para escorrer o excesso de goma.
++ #strong[Enxágue] num fio suave de água fria, uns 20 segundos, com a folha apoiada numa tábua inclinada.
++ #strong[Seque] pendurado ou plano. Depois, prense entre papéis limpos.
++ #strong[Limpe o banho] com jornal antes da próxima folha. Um banho dá muitas folhas no mesmo dia.
+
+#heading(level: 3)[Cinco padrões, nesta ordem]
+
+#tabela(3)(
+  ([Padrão], [Como], [Observação]),
+  (
+    [#strong[Pedra] (turco #emph[battal])], [só gotas: cada cor empurra as anteriores], [o primeiro de todos; não leva ferramenta],
+    [#strong[Gel-git] (turco: "vai e vem")], [estilete em linhas paralelas, ida e volta; depois na outra direção], [a base dos penteados],
+    [#strong[Nonpareil]], [gel-git + pente fino na perpendicular], [Nicholson: pente de 12–14 dentes por polegada (\~2 mm) para o fino],
+    [#strong[Caracol]], [sobre a pedra ou o nonpareil, uma moldura de pinos mergulhada e girada], [uma espiral por pino],
+    [#strong[Espanhol]], [gotas; o papel desce com balanço ritmado], [faixas diagonais claras e escuras, efeito #emph[moiré]\; o balanço define a largura]
+  )
+)
+
+Os quatro primeiros já dão um mostruário completo.
+
+#heading(level: 3)[Problemas mais comuns]
+
+#tabela(3)(
+  ([Sintoma], [Causa provável], [Correção]),
+  (
+    [#strong[Tinta afunda]], [pouco fel; banho velho ou ralo; gota solta do alto], [mais fel; banho novo; solte rente],
+    [#strong[Gotas abrem em estrela]], [película no banho], [limpar com jornal antes de cada folha],
+    [#strong[Cores giram e perdem a forma]], [banho ralo], [mais carragena],
+    [#strong[Pente arrasta as cores; gotas trincam]], [banho grosso], [água],
+    [#strong[Tinta sai no enxágue]], [lado errado; alúmen fraco; alúmen no banho], [conferir o X; mais alúmen; banho novo e bandeja lavada],
+    [#strong[Manchas brancas]], [ar sob o papel], [deitar em curva, a partir de um canto],
+    [#strong[Cor acinzentada, pontilhada]], [tinta grossa ou mal moída (Zaehnsdorf)], [água; moer ou misturar de novo],
+    [#strong[Padrão partido, esburacado]], [lentidão], [menos de 4 minutos por padrão],
+    [#strong[Uma folha de cada cor]], [ordem ou quantidade mudou], [mesma ordem, mesmas gotas, em todas]
+  )
+)
+
+#heading(level: 3)[Marmorizado no livro]
+
+- #strong[Papel forte, e de preferência colado sobre uma guarda lisa.] É o aviso de Cockerell (cap. 11): marmorizado em papel fraco não serve para guarda, e em papel grosso endurece a abertura.
+- #strong[Fibra paralela à lombada.] Decida antes de passar o alúmen.
+- #strong[A tiragem inteira numa sessão.] Para 40 livros, marmorize as 45 guardas no mesmo dia, com o mesmo banho e as mesmas tintas. Amanhã não sai igual.
+- #strong[Expectativa realista:] as primeiras 50 folhas vão para o lixo, ou viram forro de caixa.
+- #strong[Corte marmorizado:] o mesmo banho, com o bloco bem comprimido entre tábuas, encostado na superfície (cap. 15). Nicholson usava bandeja menor e goma pura; avisava que gravuras soltas no miolo puxam tinta e goma para dentro se o bloco não estiver apertado.
+- #strong[Marmorização digitalizada e reimpressa] resolve repetibilidade e tamanho. Só #strong[declare no colofão]: "guardas em papel marmorizado à mão" e "guardas em reprodução de marmorização original" são coisas diferentes.
+
+#v(0.6em)
+
+#heading(level: 2)[Suminagashi]
+
+O marmorizado japonês: #strong[água pura, nanquim e um surfactante]\. Sem goma, sem alúmen, sem pente. Sai uma folha de anéis concêntricos em preto e cinza — sóbria, elegante, e a mais fácil de acertar de todas as marmorizações.
+
+#strong[Material:]
+
+- Bandeja com água limpa, parada, à temperatura ambiente.
+- Tinta: sumi líquido ou as tintas de kit (Boku-Undo). Nanquim de carbono.
+- Surfactante: fel de boi bem diluído, ou #strong[uma gota de detergente neutro num pote d'água]\.
+- #strong[Dois pincéis]: um só para a tinta, outro só para o surfactante.
+- Papel #strong[absorvente, pouco colado]: papel japonês leve, papel de arroz. Papel muito colado (offset) pega mal a tinta.
+
+#strong[Passo a passo:]
+
++ Limpe a superfície da água com uma tira de jornal.
++ #strong[Encoste a ponta do pincel de tinta] na água, de leve. A tinta abre num círculo.
++ #strong[Encoste o pincel de surfactante no centro.] Abre um anel claro, que empurra o escuro para fora.
++ #strong[Alterne] tinta e surfactante, 10 a 20 vezes. Os anéis se multiplicam.
++ #strong[Mova sem pente:] um sopro, um abano, um fio de cabelo arrastado.
++ #strong[Deite o papel], levante, seque plano sobre jornal. Prense seco.
+
+Repetindo os centros em vários pontos da bandeja, os anéis se encontram e cobrem a folha — padrão de campo.
+
+#v(0.6em)
+
+#heading(level: 2)[Orizomegami]
+
+Dobra-se o papel como origami e mergulham-se as pontas em corante. A cor sobe pela fibra por capilaridade. Resultado geométrico, de repetição exata — padrão de campo por construção — e leva cinco minutos.
+
++ #strong[Papel:] japonês, absorvente e forte a úmido. Papel de arroz fino rasga ao desdobrar.
++ #strong[Dobre] em sanfona no comprimento; depois a tira em triângulos ou quadrados, também em sanfona, até um bloquinho.
++ #strong[Mergulhe] cantos e bordas no corante (anilina, tinta para tecido, aquarela líquida, nanquim colorido). Um segundo basta; a cor corre sozinha.
++ #strong[Aperte] o bloco entre os dedos para tirar o excesso.
++ #strong[Desdobre ainda úmido], com cuidado. Seque plano; prense.
+
+#strong[Cuidado:] é corante, não pigmento. Desbota com luz — num livro, que passa a vida fechado, é menos grave — e #strong[reativa com água]\. Cola em camada fina, pouco úmida, e teste antes num retalho.
+
+#v(0.6em)
+
+#heading(level: 2)[Gelli plate / monotipia com acrílico]
+
+Placa de gelatina ou de silicone, acrílico espalhado com rolo, textura pressionada ou retirada, e a folha por cima. Texturas e camadas, e #strong[o acrílico não reage com a cola depois de seco]\.
+
+O limite é o critério 2: camadas acumuladas viram #strong[filme], e filme trinca na charneira. Poucas camadas, finas.
+
+#v(0.6em)
+
+#heading(level: 2)[Aquarela abstrata — tratada como superfície]
 
 Fica lindíssima se você tratar como superfície, não como quadro.
 
@@ -5544,29 +5753,19 @@ Fica lindíssima se você tratar como superfície, não como quadro.
 - Textura sem gesto: #strong[sal, álcool isopropílico pingado, plástico filme amassado sobre a tinta úmida, pulverizador]\.
 - #strong[O truque mais eficaz: pinte grande e corte depois.] Uma folha A2 lavada em azul-verde vira quatro guardas excelentes, porque você escolhe os melhores recortes e o corte elimina qualquer hesitação da mão. #strong[Recorte é sofisticação instantânea.]
 
-Duas questões práticas: papel de aquarela geralmente é #strong[grosso e texturizado demais para guarda] (você quer algo entre #strong[80 e 120 g/m²], tipo texto, com fibra na direção certa); e aquarela é solúvel em água — ao passar cola ou grude ela pode reativar e migrar. #strong[Teste antes num pedaço.] Papel de desenho mais leve, ou papel japonês, aceita bem lavagens sem ondular tanto.
+Duas questões práticas. Papel de aquarela geralmente é #strong[grosso e texturizado demais para guarda] — use a gramatura do início do capítulo, com fibra na direção certa. E aquarela é solúvel em água: ao passar cola ou engrudo ela pode reativar e migrar. #strong[Teste antes num pedaço.] Papel de desenho mais leve, ou papel japonês, aceita bem lavagens sem ondular tanto.
 
-#heading(level: 3)[Suminagashi]
+#v(0.6em)
 
-Marmorização japonesa com nanquim, muito mais simples que a marmorização com carragena. Só água, tinta e um pincel.
+#heading(level: 2)[Pastel — não use]
 
-#heading(level: 3)[Orizomegami]
-
-Dobra-se o papel como origami e mergulham-se as pontas em corante. Resultado geométrico, repetitivo, elegante — e leva cinco minutos.
-
-#heading(level: 3)[Gelli plate / monotipia com acrílico]
-
-Texturas, camadas, e #strong[o acrílico não reage com a cola depois de seco]\.
-
-#heading(level: 3)[Pastel a óleo — não use]
-
-#regra[⚠️ #strong[O único item da lista que se evita por motivo técnico, não estético.] Pastel a óleo #strong[nunca seca de fato.] Consequências: cola (PVA ou grude) não adere sobre ele; ele #strong[transfere para a página oposta] quando o livro fica fechado sob pressão; borra ao passar a dobradeira; e o óleo migra pelo papel com o tempo, deixando halos e acidificando a folha. Para um objeto que fica fechado e comprimido por anos, é praticamente garantia de problema. #strong[Pastel seco] tem o problema irmão: pó, precisa de fixador, e ainda assim marca.]
+#regra[⚠️ #strong[O único item da lista que se evita por motivo técnico, não estético.] Pastel a óleo #strong[nunca seca de fato.] Consequências: cola (PVA ou engrudo) não adere sobre ele; ele #strong[transfere para a página oposta] quando o livro fica fechado sob pressão; borra ao passar a dobradeira; e o óleo migra pelo papel com o tempo, deixando halos e acidificando a folha. Para um objeto que fica fechado e comprimido por anos, é praticamente garantia de problema. #strong[Pastel seco] tem o problema irmão: pó, precisa de fixador, e ainda assim marca.]
 
 #v(0.6em)
 
 #heading(level: 2)[Cianotipia]
 
-#strong[Coincidência bonita:] o azul da cianotipia #strong[é] azul da Prússia, literalmente. Não é uma tinta que imita — é o pigmento se formando na hora dentro da fibra do papel. Ferrocianeto férrico, a mesma molécula descoberta em Berlim em 1706.
+#strong[Coincidência bonita:] o azul da cianotipia #strong[é] azul da Prússia, literalmente. Não é uma tinta que imita — é o pigmento se formando na hora dentro da fibra do papel. Ferrocianeto férrico, a mesma molécula descoberta em Berlim no começo do século XVIII.
 
 #heading(level: 3)[Como funciona]
 
@@ -5576,29 +5775,29 @@ Duas soluções: #strong[citrato férrico de amônio (A)] e #strong[ferricianeto
 
 #heading(level: 3)[Por que é especialmente boa para livro]
 
-Inversão interessante: a cianotipia é considerada processo "fraco" para quadro, porque desbota com luz prolongada. Mas ela #strong[regenera no escuro] — o ferro reduzido reoxida. #strong[Um livro passa 99% da vida fechado, no escuro, comprimido.] É praticamente o ambiente de conservação ideal para cianotipia. É um casamento melhor do que parece.
+Inversão interessante: a cianotipia é considerada processo "fraco" para quadro, porque desbota com luz prolongada. Mas ela #strong[regenera no escuro] — o ferro reduzido reoxida. #strong[Um livro passa 99% da vida fechado, no escuro, comprimido.] É praticamente o ambiente de conservação ideal para cianotipia.
 
-Outra vantagem grande: #strong[o azul resultante é insolúvel], então você pode passar amido no verso sem sangrar.
+Outra vantagem grande: #strong[o azul resultante é insolúvel], então você pode passar engrudo no verso sem sangrar.
 
 #heading(level: 3)[A armadilha que poupa um lote inteiro de papel]
 
-#regra[⚠️ #strong[Papel alcalino destrói cianotipia.] Muitos papéis modernos são tamponados (#emph[buffered]) com carbonato de cálcio para ter reserva alcalina — ótimo para conservação em geral, #strong[veneno aqui]\. O azul da Prússia é atacado por álcalis: você lava e vê o azul virar amarelo-ferrugem e sumir. Procure #strong[papel neutro, sem tamponamento alcalino]\. Bockingford e Fabriano funcionam bem; #strong[Arches às vezes dá problema justamente por isso]\. Se um papel te frustrar, provavelmente é isso, não é sua técnica.]
+#regra[⚠️ #strong[Papel alcalino destrói cianotipia.] Muitos papéis modernos são tamponados (#emph[buffered]) com carbonato de cálcio para ter reserva alcalina — ótimo para conservação em geral, #strong[veneno aqui]\. O azul da Prússia é atacado por álcalis: você lava e vê o azul virar amarelo-ferrugem e sumir. Procure #strong[papel neutro, sem tamponamento alcalino], e não confie no rótulo: "acid free" quase sempre quer dizer tamponado. A Hahnemühle, por exemplo, declara carbonato de cálcio (no mínimo 4%) e pH 7,5–9,5 em #strong[todas] as suas linhas. Cianotipistas relatam bons e maus resultados com a mesma marca, de linha para linha. #strong[O teste de efervescência (adiante) decide em um minuto.] Se um papel te frustrar, provavelmente é isso, não é sua técnica.]
 
 #strong[Sinal de que o mercado reconhece o problema:] os kits vêm com envelope de "acidificador". Ele existe precisamente porque os papéis vendidos junto (Canson, Montval) são #emph[acid free] tamponados. #strong[O acidificante é o remendo — você resolve melhor escolhendo papel neutro desde o início.]
 
-Consequência na encadernação: #strong[grude de trigo é mais seguro que muitos PVAs], que tendem ao levemente alcalino. Evite também colar direto contra papelão tamponado — uma folha de barreira neutra resolve.
+Consequência na encadernação: #strong[engrudo de trigo é mais seguro que o PVA "neutro" de conservação], que costuma vir tamponado — o PVA comum fica em pH 4–5 (cap. 10). Evite também colar direto contra papelão tamponado — uma folha de barreira neutra resolve.
 
 #heading(level: 3)[Lavagem, ondulação e gramatura]
 
 Lave bem, #strong[10–15 minutos com trocas de água], até a água sair limpa. Sal de ferro residual mancha e degrada o papel com o tempo. Isso significa que o papel vai encharcar e ondular — #strong[seque entre feltros na prensa]\. Papel muito leve sofre; #strong[papel japonês (kozo, gampi) aguenta surpreendentemente bem] e fica belíssimo, meio translúcido, com o azul assentado na fibra.
 
-#strong[Para guardas, escolha 120–160 g/m².] O papel 300 g de aquarela que vem nos kits é grosso demais para cobrir capa.
+Gramatura: a do início do capítulo (120–150 g/m² se a cianotipia for a própria guarda). O papel 300 g de aquarela que vem nos kits é grosso demais para guarda e para cobrir capa.
 
 #heading(level: 3)[Como fazer padrão de campo (e não "quadrinho de folhinha")]
 
 Espalhe: gramíneas soltas cobrindo a folha toda, sementes de dente-de-leão, renda, retalho de tule, linha embaraçada, plástico filme amassado. Para repetição regular, #strong[imprima um padrão numa transparência de jato de tinta e use como negativo] — dá para fazer o padrão no computador e obter algo que parece papel industrial antigo.
 
-Para #strong[tom liso e uniforme] (cor plana, sem imagem): sensibilize com bastão de vidro ou pincel #emph[hake] em passadas cruzadas, exponha ao sol até bronzear bem, lave. Sol pleno em folha grande exige contateira ou vidro grande — ou simplesmente exponha sem negativo, que é o que você quer para cor plana.
+Para #strong[tom liso e uniforme] (cor plana, sem imagem): sensibilize com bastão de vidro ou pincel #emph[hake] em passadas cruzadas, exponha ao sol sem negativo até bronzear bem, lave.
 
 #heading(level: 3)[Variações]
 
@@ -5615,7 +5814,7 @@ Para #strong[tom liso e uniforme] (cor plana, sem imagem): sensibilize com bast�
 
 Xilogravura em madeira é linda e é o caminho longo. Para papel decorado, o que dá resultado rápido é #strong[linóleo ou borracha de carimbo] (Speedy-Carve, Moo Carve, ou as borrachas de carimbo nacionais). A borracha corta como manteiga, segura detalhe fino melhor que linóleo, e não precisa de aquecimento. #strong[Não tem nada de "menos sério" nisso] — o resultado impresso é praticamente indistinguível.
 
-Se quiser madeira depois: #strong[madeira de fio] (fibra longitudinal) é o clássico da xilogravura; a #strong[de topo] (buril, tipo gravura de fim de século) é outra técnica quase.
+Se quiser madeira depois: #strong[madeira de fio] (cortada no sentido da fibra) é o clássico da xilogravura. A #strong[de topo], cortada com buril, é praticamente outra técnica — a gravura de topo do século XIX.
 
 #heading(level: 3)[O problema central é a repetição, não a talha]
 
@@ -5667,21 +5866,25 @@ Azul da Prússia (ferrocianeto férrico, Fe₄[Fe(CN)₆]₃) é #strong[insolú
 
 Critérios, em ordem: #strong[resistência a úmido], #strong[pH neutro (não tamponado)], superfície fechada o suficiente para não "chupar" a carga de forma irregular.
 
-#strong[Melhor opção — japoneses (washi de kozo):] Sekishu, Kizukishi, Hosokawa. Fibra longa, resistência a úmido excepcional (dá para imergir, pincelar molhado, esticar), #strong[sem reserva alcalina], e já são o padrão de encadernação para dobradiças, guardas e cobertura. O kozo aceita pincelada com uma uniformidade que papel ocidental não dá. #strong[Gampi], se quiser translucidez e brilho.
+#strong[Melhor opção — japoneses (washi de kozo):] Sekishu, Kizukishi, Hosokawa. Fibra longa, resistência a úmido excepcional (dá para imergir, pincelar molhado, esticar), em geral #strong[sem reserva alcalina], e já são o padrão de encadernação para dobradiças, guardas e cobertura. O kozo aceita pincelada com uma uniformidade que papel ocidental não dá. #strong[Gampi], se quiser translucidez e brilho.
 
-#strong[Ocidentais:] #strong[Hahnemühle Bugra] e #strong[Zerkall] (Nideggen/Bütten) são os favoritos históricos de encadernador para papel decorado — bom corpo, textura, boa reação a úmido. #strong[Fabriano Ingres] também funciona. #strong[Canson Mi-Teintes eu evitaria:] levanta fibra e pelica quando muito molhado.
+#strong[Ocidentais — com teste antes:]
 
-Prefira papel colado com gelatina ou colagem neutra, #strong[sem carbonato]\. Um papel levemente tamponado não arruína o azul da noite para o dia — é risco de anos, não de meses — mas para trabalho de cliente vale escolher o neutro.
+- #strong[Hahnemühle Bugra] e #strong[Zerkall] são papéis clássicos de encadernador para papel decorado. Mas o #strong[Bugra é tamponado] (a Hahnemühle declara carbonato em todas as linhas): ótimo para paste paper e outros pigmentos, #strong[não para o PB27]\. E o #strong[Zerkall saiu de produção] depois da enchente de julho de 2021, segundo revendedores; só há estoque.
+- #strong[Fabriano Ingres] é vendido como #emph[acid free] — faça o teste de efervescência antes.
+- #strong[Canson Mi-Teintes não serve:] levanta fibra e pelica quando muito molhado.
+
+Prefira papel colado com gelatina ou colagem neutra, #strong[sem carbonato]\. Um papel levemente tamponado não arruína o azul da noite para o dia — é risco de anos, não de meses — mas para livro feito para durar, escolha o neutro.
 
 #heading(level: 3)[As técnicas, em ordem de recomendação]
 
 #strong[A) Pigmento em metilcelulose — o padrão-ouro para velar folha inteira.] Neutra, não amarelece, fosca, não fica pegajosa, não re-molha agressivamente, reversível, aprovada em conservação.
 
 - #strong[MC (Methocel A4C — ou a prima MHEC, Tylose MH300) a 2% em água (20 g/L)], deixe hidratar horas.
-- #strong[Pasta de pigmento:] molhe o PB27 com algumas gotas de #strong[álcool isopropílico] (ele é difícil de molhar), moa em placa de vidro com muller, adicione água aos poucos até pasta cremosa, passe por tela fina de serigrafia.
+- #strong[Pasta de pigmento:] molhe o PB27 com algumas gotas de #strong[álcool isopropílico] (ele é difícil de molhar), moa em placa de vidro com moleta, adicione água aos poucos até pasta cremosa, passe por tela fina de serigrafia.
 - #strong[Carga:] 0,5–1 g de pigmento / 100 ml para tom claro; #strong[2–3 g para médio]\; 5–8 g para azul profundo.
 
-#strong[B) Paste paper (amido de trigo + pigmento) — o mais "encadernação".] Ver a receita na seção de paste paper acima. Neutro, fosco, historicamente correto. Ideal para capas.
+#strong[B) Paste paper (amido de trigo + pigmento) — o mais "encadernação".] A receita e o passo a passo estão no início do capítulo. Neutro, fosco, historicamente correto. Ideal para capas — desde que o papel seja neutro.
 
 #strong[C) Ligante acrílico diluído — quando precisa resistir à colagem.] Plextol B500, Lascaux Medium ou Golden GAC 100, #strong[diluído 1:5 a 1:10] em água, com o pigmento. Na falta, médium acrílico fluido fosco de boa marca #strong[diluído 1:8]\. Depois de seco é insolúvel em água, então não sangra quando você passar cola. #strong[Custo:] muda a "mão" do papel (fica um pouco plástico) e é menos reversível.
 
@@ -5691,7 +5894,7 @@ Prefira papel colado com gelatina ou colagem neutra, #strong[sem carbonato]\. Um
 
 #strong[F) O azul da Prússia de verdade dentro da fibra — método de dois banhos.] Forma-se o pigmento #emph[in situ]: #strong[sal de ferro(III)] (cloreto ou sulfato férrico, 3–5%), enxágue, depois #strong[ferrocianeto de potássio (3–5%, levemente acidificado)]\. O azul nasce dentro do papel, instantaneamente, com saturação impossível de obter por revestimento. É como funciona a cianotipia.
 
-#regra[⚠️ #strong[Ressalva honesta sobre o método de dois banhos:] sobra sal de ferro e acidez residual no papel, o que é ruim para longevidade — #strong[e você não pode neutralizar com álcali, porque destruiria o próprio azul.] Enxágue muito bem. Para um livro que deve durar um século, o revestimento em ligante neutro é mais seguro.]
+#regra[⚠️ #strong[Ressalva sobre o método de dois banhos:] sobra sal de ferro e acidez residual no papel, o que é ruim para longevidade — #strong[e você não pode neutralizar com álcali, porque destruiria o próprio azul.] Enxágue muito bem. Para um livro que deve durar um século, o revestimento em ligante neutro é mais seguro.]
 
 #heading(level: 3)[Por que não aquarela com goma-arábica]
 
@@ -5715,10 +5918,10 @@ Se quiser insistir, use pouquíssima goma e misture com metilcelulose.
 #heading(level: 3)[Avisos]
 
 - #strong[Não use ferro quente / gravação a quente sobre o azul sem testar:] PB27 escurece/pardeia com calor.
-- #strong[Evite adesivos e cartões alcalinos em contato direto — inclusive alguns PVAs.] Amido de trigo e metilcelulose são seguros.
+- #strong[Evite adesivos e cartões alcalinos em contato direto — inclusive o PVA "neutro" tamponado.] Amido de trigo e metilcelulose são seguros.
 - #strong[Poeira:] use máscara ao manipular o pó. O pigmento em si é de baixa toxicidade (é literalmente usado como antídoto para tálio e césio), mas #strong[nunca o misture com ácidos fortes — libera HCN]\.
 
-#strong[Se tivesse que escolher uma só combinação:] kozo Sekishu, pigmento moído com isopropanol e aplicado em #strong[metilcelulose 2% com pincel hake, duas camadas], prensado e fixado com névoa de MC 0,5%. Se o cliente quer aquele azul denso e vibrante de arrancar o olho: #strong[cianotipia ou polpa pigmentada]\.
+#strong[Se tivesse que escolher uma só combinação:] kozo Sekishu, pigmento moído com isopropanol e aplicado em #strong[metilcelulose 2% com pincel hake, duas camadas], prensado e fixado com névoa de MC 0,5%. Para o azul denso e vibrante, de arrancar o olho: #strong[cianotipia ou polpa pigmentada]\.
 
 #v(0.6em)
 
@@ -5739,7 +5942,7 @@ O kit mínimo é barato e improvisável:
 - #strong[Uniformidade.] As primeiras 40 folhas de qualquer pessoa são irregulares em gramatura. Para arte isso é charme; #strong[para guardas de um par que precisa combinar, é retrabalho.]
 - #strong[Retenção do pigmento.] Sem agente de retenção catiônico, o PB27 tinge a água do #emph[vat] e pouco fica na fibra: cor fraca e enxágue azul eterno. No Brasil o agente de retenção para papel artesanal é item de importação. #strong[O substituto histórico é alúmen (sulfato de alumínio)] — e aqui há uma ironia útil: alúmen é ácido, e o azul da Prússia adora meio ácido, então quimicamente combina perfeitamente. Só que acidez residual é ruim para a longevidade do papel — o mesmo dilema do método de dois banhos.
 
-#strong[Veredito:] vale muito como projeto paralelo, e o resultado é imbatível. Mas não prometa isso a um cliente antes de umas 3–4 sessões de teste. Faça em paralelo, entregue o trabalho com outra técnica.
+#strong[Veredito:] vale muito como projeto paralelo, e o resultado é imbatível. Mas conte com 3–4 sessões de teste antes de pôr uma folha num livro. Faça em paralelo; o livro da vez sai com outra técnica.
 
 #strong[Atalho que dá 80% do efeito:] #strong[laminar um washi finíssimo pigmentado] (kozo leve ou gampi) #strong[sobre um papel neutro mais pesado, com metilcelulose]\. A cor fica na fibra de uma folha real e você ganha o corpo do suporte. Visualmente é muito mais próximo de "papel colorido no corpo" do que qualquer revestimento único.
 
@@ -5747,9 +5950,7 @@ O kit mínimo é barato e improvisável:
 
 #heading(level: 2)[Fixadores spray: por que não resolvem]
 
-Sobre o #strong[Corfix Artfix] (verniz fixador spray, fosco/semibrilho/brilhante, 300 ml) — o padrão brasileiro em loja de arte. É verniz acrílico à base de solvente, com filtro UV, e a marca declara que não amarela.
-
-#regra[#strong[Nota de nomenclatura:] colorfix.com.br é uma empresa de #strong[aditivos plásticos]\. A marca brasileira de fixadores e vernizes artísticos é a #strong[Corfix]\.]
+O fixador de loja de arte — no Brasil, o mais comum é o #strong[Corfix Artfix]: verniz acrílico em spray, à base de solvente, fosco, semibrilho ou brilhante, com filtro UV, e a marca declara que não amarela.
 
 Ele funciona bem para o que foi feito: impressões planas, guardadas ou emolduradas, que não são coladas nem flexionadas. #strong[Encadernação é um regime mecânico completamente diferente], e é aí que ele vira problema:
 
@@ -5769,18 +5970,20 @@ Ele funciona bem para o que foi feito: impressões planas, guardadas ou emoldura
 
 #strong[A sensibilidade à água se resolve no ligante dentro da camada de cor, não com filme por cima.] Cor + ligante acrílico diluído (Plextol B500, Lascaux, Golden GAC 100 — ou médium acrílico fluido fosco de boa marca diluído 1:8) seca insolúvel, mantém flexibilidade, #strong[e você preserva o verso limpo para colar]\.
 
-#strong[E vale relativizar o medo:] na prática de encadernação, o adesivo vai no #strong[verso] do papel decorado. Washi revestido com metilcelulose aguenta pasta de amido no verso sem a face se mexer — isso é procedimento padrão. Sua preocupação real é só com respingo acidental, umidificação para prensar, e manuseio. #strong[Metilcelulose sozinha costuma bastar.]
+#strong[E o risco é menor do que parece:] na prática de encadernação, o adesivo vai no #strong[verso] do papel decorado. Washi revestido com metilcelulose aguenta engrudo no verso sem a face se mexer — isso é procedimento padrão. O risco real é respingo acidental, umidificação para prensar e manuseio. #strong[Metilcelulose sozinha costuma bastar.]
 
-#heading(level: 3)[Onde o Corfix é legítimo]
+#heading(level: 3)[Onde o fixador é legítimo]
 
 - Fixar poeira de pigmento depois de paste paper, se estiver esfarelando — mas #strong[MC 0,5% em névoa faz igual e é reversível]\.
 - Proteção final da capa já montada e seca, só na face visível, várias camadas de névoa a 25–30 cm, fosco.
 
-#strong[Mas para capa de livro existe coisa melhor e tradicional: cera microcristalina] (tipo Renaissance / cera de museu), aplicada fina e polida com flanela. Flexível, não craquela na charneira, reversível, dá brilho acetinado bonito e é o acabamento clássico de encadernação. #strong[Faz o que você quer do spray, sem nenhum dos defeitos dele.]
+#strong[Mas para capa de livro existe coisa melhor: cera microcristalina] (Renaissance ou equivalente), aplicada fina e polida com flanela. Flexível, não craquela na charneira, reversível, dá brilho acetinado bonito — é o acabamento de conservação, nascido no British Museum nos anos 1950 (cap. 14). #strong[Faz o que você quer do spray, sem nenhum dos defeitos dele.]
 
 #v(0.6em)
 
 #heading(level: 2)[Testar o pH do papel]
+
+Serve para todo papel do livro, não só para o azul: o cap. 5 manda escolher papel tamponado para durar, e é aqui que se confere.
 
 #heading(level: 3)[O que a fita universal 0–14 resolve (e o que não)]
 
@@ -5788,7 +5991,7 @@ Ele funciona bem para o que foi feito: impressões planas, guardadas ou emoldura
   ([Papel], [pH típico], [Serve para PB27 / cianotipia?]),
   (
     [Neutro, sem tamponamento], [6,5 – 7,5], [✅ ideal],
-    [#emph[Acid free] tamponado (Canson, Montval, Fabriano)], [7,5 – 9,5], [❌ é o que ataca o azul],
+    [#emph[Acid free] tamponado (Canson, Montval, Hahnemühle e a maioria)], [7,5 – 9,5], [❌ é o que ataca o azul],
     [Papel ácido (polpa mecânica)], [4,5 – 6], [❌ ruim para o papel]
   )
 )
@@ -5820,17 +6023,24 @@ A fita 0–14 é boa para: detectar papel francamente ácido (pH 5), conferir se
 
 + Numa apara, pingue #strong[ácido clorídrico diluído (\~5–10%)] — ácido muriático de material de construção diluído em água. #strong[Ácido na água, nunca o contrário]\; óculos e ventilação.
 + Observe com lupa de 10×.
-+ #strong[Bolhinhas finas = carbonato presente = papel tamponado = descarte para PB27.] Sem efervescência = sem reserva alcalina.
++ #strong[Bolhinhas finas = carbonato presente = papel tamponado.] Bom para durar; descarte para PB27 e cianotipia. Sem efervescência = sem reserva alcalina.
 
 #strong[Vinagre é fraco demais] para dar sinal claro; use HCl.
 
 #strong[O teste ainda mais direto, que vale fazer antes de todos:] pingue solução de bicarbonato (1 colher de chá em 100 mL) sobre uma amostra do seu azul da Prússia já seco. #strong[Em minutos você vê a mancha virar marrom-ocre] — é o pigmento se decompondo em hidróxido de ferro. Ver isso com os próprios olhos vale mais que qualquer número e calibra a intuição sobre quanta alcalinidade é demais.
 
-#strong[Teste de envelhecimento:] faça a mesma amostra em 3–4 papéis candidatos, cubra metade de cada com papel alumínio, e deixe uma semana em lugar quente e úmido (ou 60 °C no forno com a porta entreaberta, alguns dias). Compare metade exposta vs. coberta. #strong[Isso responde a pergunta real — "esse papel vai estragar meu azul?" — sem passar por pH nenhum], e é o que se apresenta a um cliente como garantia.
+#heading(level: 3)[Teste de envelhecimento: o papel vai estragar o azul?]
+
+A pergunta real, respondida sem passar por pH nenhum. Uma variável só: o papel.
+
++ A mesma tinta, do mesmo lote, em 3–4 papéis candidatos #strong[e] num papel de controle que passou no teste de efervescência sem bolha.
++ Corte cada amostra ao meio. Uma metade fica guardada seca, no escuro.
++ A outra vai para um pote fechado com um pano úmido (sem encostar nas amostras), no escuro, em lugar quente, por uma a duas semanas.
++ Compare as metades lado a lado, e cada papel com o controle. Anote papel, tinta, datas e onde o pote ficou.
 
 #heading(level: 3)[Se quiser melhorar o instrumental]
 
-Em ordem de custo-benefício:
+Em ordem de custo-benefício (preços de 2026):
 
 + #strong[Fitas de faixa estreita pH-Fix 6,8–8,3] (resolução 0,3) — resolve o problema por #strong[R\$ 40–70]\. Indicador imobilizado, não sangra. Peça em distribuidor de material de laboratório; combine com a faixa 5,2–6,7 se quiser cobrir o lado ácido.
 + #strong[Caneta de teste de pH para papel] (Abbey / Lineco, vermelho de clorofenol) — vira roxo acima de \~6,8, amarelo abaixo. Ótima para triar papel ácido em segundos, mas #strong[inútil no caso do PB27: neutro e tamponado dão os dois roxo]\. Deixa marca permanente.
@@ -5842,7 +6052,7 @@ Em ordem de custo-benefício:
 
 #strong[Meia encadernação endossa o papel duvidoso.] Se estiver inseguro sobre um papel, use lombada e cantos em tecido ou papel liso, e o seu papel decorado só nas laterais. #strong[A moldura neutra "endossa" o papel] — o mesmo papel que pareceria ingênuo cobrindo a capa toda fica intencional emoldurado. É também por isso que papel decorado historicamente aparecia mais nessa configuração.
 
-#strong[Faça um livro de amostras.] Cada papel novo, um pedaço colado com o grude que você usa, anotado. Em três meses você vai saber exatamente o que se comporta bem — e essa é a informação que nenhum tutorial dá.
+#strong[Faça um livro de amostras.] Cada papel novo, um pedaço colado com o engrudo que você usa, anotado: papel, técnica, tintas, data. É o mesmo conselho que Zaehnsdorf dava ao aprendiz de marmorização — guardar uma folha de cada padrão com o nome no verso. Em três meses você vai saber exatamente o que se comporta bem, e essa é a informação que nenhum tutorial dá.
 
 #v(0.6em)
 
@@ -5850,26 +6060,40 @@ Em ordem de custo-benefício:
 
 #strong[Base (serve para quase tudo):]
 
-- Amido de trigo (paste paper) + pigmentos secos ou guache de boa marca
+- Amido de trigo (engrudo) + pigmentos secos ou guache de boa marca
 - Metilcelulose (Methocel A4C) ou a prima MHEC (Tylose MH300) — casas de produtos químicos e lojas de restauro
 - Álcool isopropílico (para molhar pigmento difícil)
 - Pincel #emph[hake] largo
-- Placa de vidro + muller (ou fundo de copo) para moer
+- Placa de vidro + moleta (ou fundo de copo) para moer
 - Feltros / mata-borrão e prensa
 - Fita de pH 0–14 para triagem + (quando der) pH-Fix 6,8–8,3
 - Ácido muriático diluído para o teste de efervescência
 
+#strong[Paste paper:]
+
+- O engrudo da base, sabão ou detergente neutro
+- Placa de vidro ou acrílico, esponja
+- Pentes de cartão, rodo de pia, rolos, carimbos
+
+#strong[Marmorização:]
+
+- Bandeja nivelada, 3–5 cm maior que o papel
+- Carragena em pó; pedra-ume (alúmen de potássio)
+- Acrílicos de marmorização ou acrílicos bons; fel de boi
+- Estilete, pentes de alfinete, tiras de jornal
+- Para começar: kit de suminagashi (ou sumi líquido + detergente neutro, dois pincéis)
+
 #strong[Papéis:]
 
 - Washi de kozo (Sekishu, Kizukishi, Hosokawa) — o melhor suporte
-- Hahnemühle Bugra, Zerkall, Fabriano Ingres — ocidentais
-- 80–120 g/m² para guardas em geral; 120–160 g/m² para cianotipia
+- Para pigmentos comuns: Hahnemühle Bugra, Fabriano Ingres, offset e papel de desenho bons
+- Gramatura: 120–150 g/m² se for a própria guarda; 90–120 g/m² se for colado sobre guarda lisa ou revestir capa
 - #strong[Evite:] Canson Mi-Teintes (pelica quando molhado); papel tamponado para qualquer coisa com azul da Prússia
 
 #strong[Cianotipia:]
 
 - Kit de químicos prontos (O Retratista, BR; Jacquard, importado)
-- Papel neutro #strong[não tamponado]
+- Papel neutro #strong[não tamponado] — confirmado no teste de efervescência
 
 #strong[Gravura:]
 
@@ -5880,7 +6104,21 @@ Em ordem de custo-benefício:
 #strong[Acabamento:]
 
 - Ligante acrílico (Plextol B500, Lascaux, Golden GAC 100 — ou médium fluido fosco diluído 1:8)
-- #strong[Cera microcristalina] (Renaissance / cera de museu) — no lugar do fixador spray
+- #strong[Cera microcristalina] (Renaissance ou equivalente) — no lugar do fixador spray
+
+#v(0.6em)
+
+#heading(level: 2)[Fontes]
+
+- #strong[C. W. Woolnough,] #emph[The Art of Marbling] (1853), na adaptação de #strong[James B. Nicholson,] #emph[A Manual of the Art of Bookbinding] (1856) — cores, gomas (tragacanto; carragena "dispensável"), a preparação de cera, a regra do fel crescente, a consistência do banho, a bandeja, os padrões (pedra, espanhol, nonpareil, caracol, holandês), os pentes, o corte marmorizado.
+- #strong[Joseph W. Zaehnsdorf,] #emph[The Art of Bookbinding] (1890) — o paste paper (pasta com sabão, folhas puxadas, lustro a ferro), o princípio dos veios, o diagnóstico das cores, lote com a mesma ordem, o mostruário de padrões.
+- #strong[Douglas Cockerell,] #emph[Bookbinding, and the Care of Books] (1901) — o aviso sobre o papel do marmorizado (cap. 11).
+- #strong[Roberts & Etherington,] #emph[Bookbinding and the Conservation of Books] (1982), verbetes MARBLING, MARBLING SIZE, CARRAGHEEN MOSS, GUM TRAGACANTH, OX-GALL, NONPAREIL MARBLE, SPANISH MARBLE, OLD DUTCH MARBLE, MARBLED EDGES, PASTE PAPERS, PULLED PASTE PAPERS.
+- #strong[Dharma Trading] — proporção e descanso da carragena, dose do alúmen, enxágue, diagnóstico de defeitos.
+- #strong[Matija Strlic,] na lista de conservação CoOL (1999) — pH do alúmen e a acidez do papel marmorizado.
+- #strong[Hahnemühle] — carbonato e pH declarados para todas as linhas.
+- #strong[Revendedores de papel] — o fim da produção do Zerkall após a enchente de 2021.
+- #strong[Conversas de pesquisa] — alternativas ao marmorizado, cianotipia, gravura, azul da Prússia, fixadores e pH; a ordem de aprendizado da marmorização e a honestidade no colofão.
 
 // ══ 19 · Caixas, estojos e proteção (capitulos/19-caixas-e-estojos.md) ══
 #capitulo[19 · Caixas, estojos e proteção]
@@ -6823,11 +7061,11 @@ Cada bloco indica o capítulo de origem, onde está o porquê.
 #tabela(4)(
   ([Técnica], [Dificuldade], [Comporta-se bem com cola?], [Veredito]),
   (
-    [#strong[Paste paper] (grude + pigmento)], [baixa], [✅ perfeitamente], [✅ #strong[se for escolher uma, é esta]],
-    [Marmorizado clássico], [alta], [✅], [✅ o padrão histórico],
-    [Suminagashi (nanquim na água)], [baixa], [✅], [✅ muito mais simples que carragena],
+    [#strong[Paste paper] (engrudo + pigmento)], [baixa], [✅ em camada fina de cola], [✅ #strong[se for escolher uma, é esta]],
+    [Suminagashi (nanquim na água)], [baixa], [✅], [✅ a porta de entrada da marmorização],
+    [Marmorizado em carragena], [alta], [✅], [✅ o padrão histórico],
     [Orizomegami (dobra + corante)], [muito baixa], [⚠️ corante: teste com a cola], [✅ 5 minutos, resultado elegante],
-    [Gelli plate / monotipia acrílica], [baixa], [✅ acrílico seco não reage], [✅],
+    [Gelli plate / monotipia acrílica], [baixa], [✅ acrílico seco não reage], [✅ em camada fina],
     [Cianotipia], [média], [✅ o azul é insolúvel], [✅ sofisticadíssima em 1/4 de couro],
     [Xilogravura / carimbo], [média], [⚠️ depende da tinta e da cobertura], [✅ com motivo linear],
     [Aquarela abstrata], [baixa], [⚠️ reativa com água], [✅ #strong[se tratada como superfície]],
@@ -7719,13 +7957,20 @@ Passe a mistura num corte de sobra, deixe secar, escove e brune:
 
 + Numa apara, pingue #strong[ácido clorídrico diluído (\~5–10%)] — ácido muriático de material de construção diluído em água. #strong[Ácido na água, nunca o contrário]\; óculos e ventilação.
 + Observe com lupa de 10×.
-+ #strong[Bolhinhas finas = carbonato presente = papel tamponado = descarte para PB27.] Sem efervescência = sem reserva alcalina.
++ #strong[Bolhinhas finas = carbonato presente = papel tamponado.] Bom para durar; descarte para PB27 e cianotipia. Sem efervescência = sem reserva alcalina.
 
 #strong[Vinagre é fraco demais] para dar sinal claro; use HCl.
 
 #strong[O teste ainda mais direto, que vale fazer antes de todos:] pingue solução de bicarbonato (1 colher de chá em 100 mL) sobre uma amostra do seu azul da Prússia já seco. #strong[Em minutos você vê a mancha virar marrom-ocre] — é o pigmento se decompondo em hidróxido de ferro. Ver isso com os próprios olhos vale mais que qualquer número e calibra a intuição sobre quanta alcalinidade é demais.
 
-#strong[Teste de envelhecimento:] faça a mesma amostra em 3–4 papéis candidatos, cubra metade de cada com papel alumínio, e deixe uma semana em lugar quente e úmido (ou 60 °C no forno com a porta entreaberta, alguns dias). Compare metade exposta vs. coberta. #strong[Isso responde a pergunta real — "esse papel vai estragar meu azul?" — sem passar por pH nenhum], e é o que se apresenta a um cliente como garantia.
+#heading(level: 3)[Teste de envelhecimento: o papel vai estragar o azul?]
+
+A pergunta real, respondida sem passar por pH nenhum. Uma variável só: o papel.
+
++ A mesma tinta, do mesmo lote, em 3–4 papéis candidatos #strong[e] num papel de controle que passou no teste de efervescência sem bolha.
++ Corte cada amostra ao meio. Uma metade fica guardada seca, no escuro.
++ A outra vai para um pote fechado com um pano úmido (sem encostar nas amostras), no escuro, em lugar quente, por uma a duas semanas.
++ Compare as metades lado a lado, e cada papel com o controle. Anote papel, tinta, datas e onde o pote ficou.
 
 // ══ F · Ordem de operações (apendices/F-ordem-de-operacoes.md) ══
 #capitulo[F · Ordem de operações]
@@ -7744,12 +7989,10 @@ O erro mais comum de quem está começando não é errar o passo — é chegar n
   ([Quando], [O quê], [Cap.]),
   (
     [#strong[Dias antes]], [Glair (clara + água + vinagre), se for dourar — descansa 24–48 h], [15],
-    [#strong[Dias antes]], [Papel decorado para guardas, seco e prensado], [18],
+    [#strong[Dias antes]], [Papel decorado para guardas, seco e prensado (marmorizar é sessão à parte: carragena feita na véspera; papel com alúmen usado em até 2 dias)], [18],
     [#strong[Dias antes]], [Encomendar clichê, se for blocar], [16],
     [#strong[1 dia antes]], [Couro cortado e rebaixado], [14],
     [#strong[1 dia antes]], [Pastas cortadas, forradas (2 papéis dentro / 1 fora) e secas], [12],
-    [#strong[Horas antes]], [Alúmen no papel, se for marmorizar], [18],
-    [#strong[1 h antes]], [Carragena ou metilcelulose, se for marmorizar], [18],
     [#strong[20 min antes]], [Engrudo de amido (cozinhar, coar, esfriar)], [10],
     [#strong[10 min antes]], [CMC (hidratar)], [10],
     [#strong[Na hora]], [PVA, misturas PVA+CMC], [10],

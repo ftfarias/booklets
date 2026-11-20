@@ -19,9 +19,9 @@ diagramação.
 
 | | |
 |---|---|
-| Capítulos revisados | 1 a 17 (e o 6 dividido, 19/11) |
-| Próximo | 18 · Papéis decorados |
-| Depois | 19 a 21; apêndices B, C, F; `MANUAL.md` |
+| Capítulos revisados | 1 a 18 (e o 6 dividido, 19/11) |
+| Próximo | 19 · Caixas, estojos e proteção |
+| Depois | 20 e 21; apêndices B, C, F; `MANUAL.md` |
 | No fim | itens gerais abaixo; passada de layout; cadernos e páginas em branco |
 | Erros de fato da leitura integral | todos corrigidos (17/11) |
 
@@ -57,15 +57,13 @@ capítulos já saem numerados (17/11); falta o resto:
 
 ### B. Lacunas — o que o livro promete e não tem
 
-1. **Marmorização.** O cap. 18 diz que ela está "em outro capítulo do
-   manual". Não está em nenhum.
-2. **O *casing-in*** — colar o bloco na capa feita à parte. É a operação
+1. **O *casing-in*** — colar o bloco na capa feita à parte. É a operação
    central da rota que o estúdio usa, e está numa linha de bloco de código.
-3. **Colar a guarda na pasta**: há as defesas contra a ondulação, não o
+2. **Colar a guarda na pasta**: há as defesas contra a ondulação, não o
    procedimento.
-4. **Recolocar um livro na capa** (*recasing*) — o conserto mais pedido.
-5. **Peças e medidas das caixas** (slipcase e clamshell).
-6. **Conservação preventiva** — como guardar e cuidar dos livros que já
+3. **Recolocar um livro na capa** (*recasing*) — o conserto mais pedido.
+4. **Peças e medidas das caixas** (slipcase e clamshell).
+5. **Conservação preventiva** — como guardar e cuidar dos livros que já
    existem. O cap. 21 é um roteiro de estudo, não um capítulo.
 
 ### C. O livro contra as próprias regras
@@ -105,20 +103,18 @@ capítulos já saem numerados (17/11); falta o resto:
 ### E. Voz e resíduos
 
 - **Restos das conversas de origem.** Caixas "⚠️ Divergência nas fontes: uma
-  conversa diz… outra responde…" (cap. 4); "eu evitaria",
-  "sobre o Corfix…", "sua preocupação real" (cap. 18); "migrado do capítulo
+  conversa diz… outra responde…" (cap. 4); "migrado do capítulo
   de douração", "estavam no NEGOCIO.md e migraram para cá" (Fontes do
   cap. 19).
 - **Voz de negócio**, que você pediu fora do manual: seção "Preço" e várias
-  frases do cap. 19; "cliente" nos caps. 18 e 20; "mata a margem" (ap. C);
+  frases do cap. 19; "cliente" no cap. 20; "mata a margem" (ap. C);
   "decisão de preço" (ap. F).
 - **Arquivos que o leitor do livro não tem:** `NEGOCIO.md`, `CAMINHOS.md`,
   `../CLAUDE.md` (cap. 19; ap. C, F).
 - **Preços** espalhados pelo texto (ouro por grama, livrete, bolo, clichê,
   impressoras): todos de 2026. Ou vão para o apêndice C com a data, ou
   ganham o ano ao lado.
-- **Grafias e nomes que variam:** couché/couchê · verge/vergê ·
-  grude/engrudo · canoa/tubo (lombada oca) · Scharffix/Scharf-Fix ·
+- **Grafias e nomes que variam:** couché/couchê · verge/vergê · canoa/tubo (lombada oca) · Scharffix/Scharf-Fix ·
   Derome/Derôme · percalux/Percalux · guarda colada/contraguarda ·
   "caixa" para *case binding* e para as caixas do cap. 19 · "Parte I…II"
   dentro do cap. 4.
@@ -438,49 +434,20 @@ Revisado em 19/11 (registro abaixo). Ficou:
 
 ### 18 · Papéis decorados
 
-- [erro de remissão / lacuna] "Há material adicional sobre **marmorização
-  propriamente dita** (carragena, alúmen, fel de boi, padrões) **em outro
-  capítulo do manual**." Não há: a palavra "carragena" só aparece nessa
-  frase. O marmorizado é citado em nove capítulos como "o padrão histórico"
-  e não é ensinado em nenhum. Ou entra uma seção (mesmo curta: banho,
-  alúmen no papel, tintas, três padrões), ou a frase sai e a consulta
-  rápida diz "comprar pronto".
-- [melhoria — equilíbrio] O capítulo recomenda *paste paper* ("se for
-  escolher uma, é esta"), suminagashi e orizomegami — e dá a cada um de
-  duas a seis linhas. O azul da Prússia e o teste de pH ocupam mais da
-  metade. As técnicas recomendadas mereciam o passo a passo que o PB27
-  ganhou (para o *paste paper*: consistência, ferramentas de retirar,
-  secagem, prensagem).
-- [incoerência] **Fabriano** aparece como papel que "funciona bem" para
-  cianotipia e, na tabela de pH, entre os "*acid free* tamponados ❌".
-- [incoerência com o cap. 10] "muitos PVAs… tendem ao **levemente
-  alcalino**". O cap. 10 diz que o PVA comum fica em pH 4–5; alcalino é só
-  o "neutro" de conservação, tamponado. O risco para o azul vem desse e do
-  cartão tamponado.
-- [incoerência] Gramatura de guarda: **80–120 g** aqui (aquarela e kit),
-  **120–150 g** no cap. 11, **120–180 g** no cap. 5.
-- [conferir] **Zerkall**: a fábrica foi destruída na enchente de 2021 e
-  deixou de produzir; só há estoque remanescente. E os ocidentais
-  recomendados para o PB27 (Bugra, Fabriano Ingres) são vendidos como
-  "acid free" — pela regra do próprio capítulo, precisam passar no teste
-  de efervescência antes.
-- [conferir — segurança] Teste de envelhecimento: "60 °C no forno com a
-  porta entreaberta, **alguns dias**". Forno de cozinha ligado por dias com
-  papel dentro não é coisa que eu deixaria impressa sem ressalva. A versão
-  "lugar quente e úmido por uma semana" basta.
-- [forma — voz] É o capítulo onde mais sobrou a conversa de origem:
-  "Canson Mi-Teintes **eu evitaria**"; "**Sobre o** Corfix Artfix…"; "E vale
-  relativizar o medo… **sua preocupação real**…"; a "nota de nomenclatura"
-  sobre o site colorfix.com.br (resposta a uma pergunta que o leitor não
-  fez); e a voz de negócio — "não prometa isso a um cliente", "para
-  trabalho de cliente", "é o que se apresenta a um cliente como garantia".
-- [forma] "**Grude**" aqui; "**engrudo**" no resto do manual.
-- [forma] Cera microcristalina como "o acabamento **clássico** de
-  encadernação": é dos anos 1950 (cap. 14). "O acabamento de conservação".
-- [melhoria] O teste de pH e de reserva alcalina é a melhor seção de
-  química do livro e serve para **todo** papel — o cap. 5 manda escolher
-  papel "alcalino, tamponado" e não diz como conferir. Uma remissão do
-  cap. 5 para cá.
+Revisado em 20/11 (registro abaixo). Ficou:
+
+- [conferir] **Dose de alúmen.** As fontes vão de ~10 g/L (Dharma) a
+  30–50 g/L (conversa de origem); o texto manda começar pela menor. Só a
+  bandeja decide — anotar a dose que funcionou.
+- [conferir] **Zerkall** fora de produção desde a enchente de 2021: a
+  informação é de revendedor, não achei nota da fábrica.
+- [teste] **Metilcelulose × carragena** como banho de marmorização: as
+  fontes divergem (a Dharma não recomenda MC a iniciante; a conversa a punha
+  como ponte). O texto manda testar as duas no mesmo dia — candidato ao
+  `TESTES.md`. Idem **paste paper com e sem PVA** na pasta.
+- [conferir] O resto do capítulo que veio das conversas e não tem fonte
+  impressa: proporções do PB27 em metilcelulose, cargas, o método de dois
+  banhos, os produtos e preços brasileiros (O Retratista, Kasvi, pH-Fix).
 
 ### 19 · Caixas, estojos e proteção
 
@@ -597,8 +564,9 @@ Revisado em 19/11 (registro abaixo). Ficou:
   "4×4 ~R$ 150, 5×5 ~R$ 146".
 - [forma] "Scharffix" aqui; "Scharf-Fix" (a grafia da marca) no cap. 14.
   "Canoa" de novo para o tubo da lombada.
-- [melhoria] O apêndice lista carragena, alúmen e fel de boi — material de
-  marmorização, que o manual não ensina (ver cap. 18).
+- [melhoria] O apêndice lista carragena, alúmen e fel de boi. O cap. 18
+  agora ensina a marmorização (20/11); conferir se os fornecedores batem
+  com o kit de lá.
 - [melhoria] As poucas lojas que o manual cita pelo nome estão espalhadas
   pelos capítulos (O Retratista, Art Camargo, Koralle, Casa da Arte, Casa
   do Restaurador, Kremer). Valia reuni-las aqui. E, como o livro vai ser
@@ -1454,3 +1422,61 @@ para o cap. 16.
 - [forma] Foil digital: a versão caseira com laminadora e foil para
   toner. Clichê: "com foil ou com ouro genuíno". Seção **Fontes** refeita.
 
+### 18 · Papéis decorados (20/11/2026)
+
+- **[lacuna] Marmorização.** A frase "há material sobre marmorização em
+  outro capítulo" apontava para nada. Entrou a seção inteira: como funciona
+  (o princípio dos veios, de Zaehnsdorf), história com data e fonte
+  (suminagashi na *Sanjūrokunin kashū*, c. 1112; persas no séc. XVI; Holanda
+  1598, Inglaterra c. 1655 — R&E; a anedota do papel holandês nos
+  brinquedos, atribuída a Woolnough; tragacanto até meados do XIX,
+  carragena depois; Nicholson sem alúmen no papel; data de cada padrão),
+  ordem de aprendizado, material, banho de carragena (Dharma Trading:
+  proporção, 12 h de descanso, validade; consistência pelo teste de
+  Nicholson), alúmen (dose, um lado só, até 2 dias, contaminação do banho),
+  tintas e fel (a regra do fel crescente de Nicholson; o lote de
+  Zaehnsdorf), passo a passo de uma folha, cinco padrões, tabela de
+  defeitos, e o marmorizado no livro (Cockerell, tiragem numa sessão, corte
+  marmorizado, reprodução declarada no colofão).
+- **[conteúdo — conservação]** O alúmen deixa o papel ácido (solução pH
+  3–4; Strlic, CoOL): menor dose, marmorizado colado sobre guarda lisa.
+  Aviso contra vermelhão e zarcão dos manuais antigos.
+- **[melhoria — equilíbrio]** *Paste paper* ganhou passo a passo (pasta,
+  consistência de Zaehnsdorf, sabão, umedecer, espalhar, retirar, refazer,
+  secar, prensar, lustrar), ferramentas, papel puxado (R&E, Zaehnsdorf) e o
+  cuidado na colagem. Suminagashi e orizomegami ganharam material e passo a
+  passo; gelli plate, o limite do filme. Datação do *paste paper*: "alemão,
+  século XVIII" → séculos XVI–XVIII, sobretudo Alemanha e Itália (R&E).
+- **[incoerência] Gramatura.** Nova subseção "Que papel, que gramatura":
+  120–150 g/m² quando o decorado é a própria guarda (cap. 11); 90–120 g/m²
+  quando vai colado sobre guarda lisa ou reveste capa. Aquarela,
+  cianotipia e kit apontam para ela.
+- **[erro] Bugra.** Recomendado para o PB27, mas a Hahnemühle declara
+  carbonato (≥4%) e pH 7,5–9,5 em todas as linhas: é tamponado. Ficou para
+  pigmentos comuns. **Zerkall:** fora de produção desde 2021 (revendedor).
+  Fabriano Ingres: "faça o teste".
+- **[incoerência] Fabriano** "funciona bem" na cianotipia × "tamponado ❌"
+  na tabela de pH: a lista de marcas saiu; ficou a regra (rótulo *acid
+  free* ≈ tamponado; o teste de efervescência decide).
+- **[incoerência com o cap. 10]** "PVAs tendem ao levemente alcalino" → o
+  PVA comum fica em pH 4–5; o perigo é o PVA "neutro" tamponado.
+- **[conferir → corrigido] Teste de envelhecimento.** Saiu o forno a 60 °C
+  por dias. O teste foi redesenhado com uma variável só (o papel), metade
+  de controle guardada seca e papel de controle sem carbonato.
+- [melhoria] O teste de pH abre dizendo que serve para todo papel; o cap. 5
+  ganhou a remissão ("Vai durar?" → teste de efervescência, e a exceção do
+  azul da Prússia).
+- [forma — voz] Saíram "eu evitaria", "sobre o Corfix…", "sua preocupação
+  real", a nota sobre o site colorfix.com.br, e as frases de cliente ("não
+  prometa a um cliente", "trabalho de cliente", "se o cliente quer", "o que
+  se apresenta a um cliente como garantia").
+- [forma] "Grude" → "engrudo" no capítulo inteiro. Cera microcristalina:
+  "acabamento clássico" → "acabamento de conservação, dos anos 1950
+  (cap. 14)". Xilogravura de topo explicada. "Muller" → "moleta". Preços do
+  instrumental datados (2026). Livro de amostras ligado ao conselho de
+  Zaehnsdorf. Kit com seções de paste paper e marmorização. Seção
+  **Fontes** criada (não havia).
+- **[erro] Apêndice F.** "Alúmen no papel — horas antes" e "Carragena — 1 h
+  antes" saíram da tabela de preparo do dia: a carragena descansa 12 h e o
+  papel com alúmen dura até 2 dias; marmorizar é sessão à parte. A linha do
+  papel decorado diz isso.

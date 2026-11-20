@@ -250,8 +250,8 @@ para atacar o azul da Prússia por décadas.
    material de construção diluído em água. **Ácido na água, nunca o contrário**;
    óculos e ventilação.
 2. Observe com lupa de 10×.
-3. **Bolhinhas finas = carbonato presente = papel tamponado = descarte para
-   PB27.** Sem efervescência = sem reserva alcalina.
+3. **Bolhinhas finas = carbonato presente = papel tamponado.** Bom para durar;
+   descarte para PB27 e cianotipia. Sem efervescência = sem reserva alcalina.
 
 **Vinagre é fraco demais** para dar sinal claro; use HCl.
 
@@ -261,9 +261,15 @@ já seco. **Em minutos você vê a mancha virar marrom-ocre** — é o pigmento 
 decompondo em hidróxido de ferro. Ver isso com os próprios olhos vale mais que
 qualquer número e calibra a intuição sobre quanta alcalinidade é demais.
 
-**Teste de envelhecimento:** faça a mesma amostra em 3–4 papéis candidatos,
-cubra metade de cada com papel alumínio, e deixe uma semana em lugar quente e
-úmido (ou 60 °C no forno com a porta entreaberta, alguns dias). Compare metade
-exposta vs. coberta. **Isso responde a pergunta real — "esse papel vai estragar
-meu azul?" — sem passar por pH nenhum**, e é o que se apresenta a um cliente
-como garantia.
+### Teste de envelhecimento: o papel vai estragar o azul?
+
+A pergunta real, respondida sem passar por pH nenhum. Uma variável só: o
+papel.
+
+1. A mesma tinta, do mesmo lote, em 3–4 papéis candidatos **e** num papel de
+   controle que passou no teste de efervescência sem bolha.
+2. Corte cada amostra ao meio. Uma metade fica guardada seca, no escuro.
+3. A outra vai para um pote fechado com um pano úmido (sem encostar nas
+   amostras), no escuro, em lugar quente, por uma a duas semanas.
+4. Compare as metades lado a lado, e cada papel com o controle. Anote papel,
+   tinta, datas e onde o pote ficou.

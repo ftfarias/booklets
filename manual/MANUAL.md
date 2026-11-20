@@ -129,6 +129,7 @@ Fontes brutas em [`raw/`](raw/) — as conversas originais, íntegras, com
 | Pergunta | Onde |
 |---|---|
 | O que uso no lugar de marmorizado? | [18 — consulta rápida](capitulos/18-papeis-decorados.md) |
+| Como marmorizo papel? E paste paper? | [18 — marmorização · paste paper](capitulos/18-papeis-decorados.md) |
 | Como faço cianotipia em papel de guarda? | [18 — cianotipia](capitulos/18-papeis-decorados.md) |
 | Como é uma capa Art Déco de verdade? | [projeto à parte](../arte-deco/) |
 | Que margens uso? Que corpo? Que entrelinha? | [4 — consulta rápida](capitulos/04-tipografia-e-editoracao.md) |

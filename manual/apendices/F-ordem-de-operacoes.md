@@ -17,12 +17,10 @@ no passo certo sem o material pronto.
 | Quando | O quê | Cap. |
 |---|---|---|
 | **Dias antes** | Glair (clara + água + vinagre), se for dourar — descansa 24–48 h | 15 |
-| **Dias antes** | Papel decorado para guardas, seco e prensado | 18 |
+| **Dias antes** | Papel decorado para guardas, seco e prensado (marmorizar é sessão à parte: carragena feita na véspera; papel com alúmen usado em até 2 dias) | 18 |
 | **Dias antes** | Encomendar clichê, se for blocar | 16 |
 | **1 dia antes** | Couro cortado e rebaixado | 14 |
 | **1 dia antes** | Pastas cortadas, forradas (2 papéis dentro / 1 fora) e secas | 12 |
-| **Horas antes** | Alúmen no papel, se for marmorizar | 18 |
-| **1 h antes** | Carragena ou metilcelulose, se for marmorizar | 18 |
 | **20 min antes** | Engrudo de amido (cozinhar, coar, esfriar) | 10 |
 | **10 min antes** | CMC (hidratar) | 10 |
 | **Na hora** | PVA, misturas PVA+CMC | 10 |

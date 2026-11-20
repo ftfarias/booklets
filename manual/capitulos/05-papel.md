@@ -36,7 +36,9 @@ capa; papelão ondulado em tampa.
   brilho valem mais que nitidez.
 - Vai receber cola d'água? → 120 g/m² em vez de 80; o fino ondula e enruga.
 - Vai durar? → alcalino, tamponado, com reserva de carbonato (ISO 9706).
-  "Livre de ácidos" no marketing **não** é a mesma coisa.
+  "Livre de ácidos" no marketing **não** é a mesma coisa. Para conferir a
+  reserva numa apara, o teste de efervescência do cap. 18. (Exceção: azul
+  da Prússia e cianotipia pedem justamente papel **sem** reserva — cap. 18.)
 
 ---
 
