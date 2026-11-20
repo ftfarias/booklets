@@ -332,10 +332,11 @@ Cada bloco indica o capítulo de origem, onde está o porquê.
 
 | Estrutura | Proteção | Use quando |
 |---|---|---|
-| **Slipcase** (estojo aberto) | média | Livro em papel ou tecido, brochura reencadernada, edição própria |
-| **Slipcase + chemise** | boa | **Couro** — a chemise sai junto, o atrito é chemise/estojo |
-| **Clamshell / Solander** | máxima | *Fine binding*, peça de gama, livro que precisa durar |
+| **Caixa de bandejas** (*clamshell*, *drop-spine*) | máxima | Couro, douração, peça única, livro que precisa durar |
+| **Estojo + chemise** (*slipcase*) | boa | Couro — a chemise sai junto, o atrito é chemise/estojo. A dupla clássica da encadernação de arte francesa (*chemise et étui*) |
+| **Estojo sozinho** | baixa para o livro | Livro de uso, em papel ou tecido, onde o desgaste é aceito |
 | **Chemise sozinha** | baixa | Dentro de outra caixa, ou proteção provisória |
+| **Envelope de quatro abas** (*wrapper*) | básica | Livro fino (até ~12 mm), brochura, folheto; provisório |
 | **Chitsu** (japonês) | boa | Livro em costura japonesa; tecido e cartão fino |
 | **Portfólio / pasta** | média | Folhas soltas, gravuras, documentos |
 

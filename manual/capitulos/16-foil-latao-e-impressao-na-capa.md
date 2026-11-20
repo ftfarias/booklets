@@ -595,7 +595,7 @@ corante desbota/sangra primeiro. Escolha uma:
 siliconado, nunca direto no impresso; e deixe o painel colado sob prensa
 com papel siliconado por cima, porque **verniz mal curado gruda em tudo**.
 
-*(Construção das caixas, folgas e cartão: cap. 19. O melhor lugar para a
+*(Construção das caixas, peças e medidas: cap. 19. O melhor lugar para a
 cor de corante é o forro interno de uma caixa de bandejas, que nunca vê
 luz nem sofre atrito — também no cap. 19.)*
 

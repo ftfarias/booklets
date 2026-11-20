@@ -19,9 +19,9 @@ diagramação.
 
 | | |
 |---|---|
-| Capítulos revisados | 1 a 18 (e o 6 dividido, 19/11) |
-| Próximo | 19 · Caixas, estojos e proteção |
-| Depois | 20 e 21; apêndices B, C, F; `MANUAL.md` |
+| Capítulos revisados | 1 a 19 (e o 6 dividido, 19/11) |
+| Próximo | 20 · Reencadernação |
+| Depois | 21; apêndices B, C, F; `MANUAL.md` |
 | No fim | itens gerais abaixo; passada de layout; cadernos e páginas em branco |
 | Erros de fato da leitura integral | todos corrigidos (17/11) |
 
@@ -62,8 +62,7 @@ capítulos já saem numerados (17/11); falta o resto:
 2. **Colar a guarda na pasta**: há as defesas contra a ondulação, não o
    procedimento.
 3. **Recolocar um livro na capa** (*recasing*) — o conserto mais pedido.
-4. **Peças e medidas das caixas** (slipcase e clamshell).
-5. **Conservação preventiva** — como guardar e cuidar dos livros que já
+4. **Conservação preventiva** — como guardar e cuidar dos livros que já
    existem. O cap. 21 é um roteiro de estudo, não um capítulo.
 
 ### C. O livro contra as próprias regras
@@ -104,13 +103,11 @@ capítulos já saem numerados (17/11); falta o resto:
 
 - **Restos das conversas de origem.** Caixas "⚠️ Divergência nas fontes: uma
   conversa diz… outra responde…" (cap. 4); "migrado do capítulo
-  de douração", "estavam no NEGOCIO.md e migraram para cá" (Fontes do
-  cap. 19).
-- **Voz de negócio**, que você pediu fora do manual: seção "Preço" e várias
-  frases do cap. 19; "cliente" no cap. 20; "mata a margem" (ap. C);
+  de douração".
+- **Voz de negócio**, que você pediu fora do manual: "cliente" no cap. 20; "mata a margem" (ap. C);
   "decisão de preço" (ap. F).
 - **Arquivos que o leitor do livro não tem:** `NEGOCIO.md`, `CAMINHOS.md`,
-  `../CLAUDE.md` (cap. 19; ap. C, F).
+  `../CLAUDE.md` (ap. C, F).
 - **Preços** espalhados pelo texto (ouro por grama, livrete, bolo, clichê,
   impressoras): todos de 2026. Ou vão para o apêndice C com a data, ou
   ganham o ano ao lado.
@@ -451,19 +448,15 @@ Revisado em 20/11 (registro abaixo). Ficou:
 
 ### 19 · Caixas, estojos e proteção
 
-- [lacuna] Para um capítulo de caixas, faltam **as peças e as medidas**:
-  lista de peças do slipcase e da clamshell e como cada dimensão sai do
-  livro (altura, largura, espessura + folga + cartão + forro). "As três
-  medidas da bandeja" promete três e descreve a relação entre duas
-  bandejas; a terceira peça — a capa que une as bandejas — não aparece.
-- [melhoria — repetição] "Proteger o painel impresso" repete o que agora
-  está no cap. 16 (verniz, laminação só na face impressa, laminação ×
-  verniz). Aqui basta a tabela de riscos e a remissão.
-- [forma — voz de negócio] "O item de maior margem do catálogo", "venda
-  clamshell e cobre por isso", "o momento que o cliente fotografa", a seção
-  **Preço** inteira e a remissão ao `NEGOCIO.md`. Você pediu o negócio em
-  documento separado; isto é o que sobrou dele no manual. As Fontes também
-  contam a migração ("estavam no NEGOCIO.md e migraram para cá").
+Revisado em 20/11 (registro abaixo). Ficou:
+
+- [conferir] **Bandeja grande, largura da base = L + 1,5t.** O roteiro da
+  AIC diz "acrescente mais meia espessura" sem nomear a base de partida;
+  li como cumulativo (L + t das paredes de cabeça e pé + ½t), que é o que
+  fecha com a parede de 1,5t a mais. O texto manda conferir cada peça sobre
+  a anterior forrada — o protótipo decide.
+- [conferir] **Ajuste do estojo, 1–2 mm**: ponto de partida meu; as fontes
+  dão o critério (desliza sem forçar, não cai), não o número.
 
 ### 20 · Reencadernação
 
@@ -1480,3 +1473,43 @@ para o cap. 16.
   antes" saíram da tabela de preparo do dia: a carragena descansa 12 h e o
   papel com alúmen dura até 2 dias; marmorizar é sessão à parte. A linha do
   papel decorado diz isso.
+
+### 19 · Caixas, estojos e proteção (20/11/2026)
+
+- **[lacuna] Peças e medidas.** Seções novas "Medir o livro" (o método do
+  NEDCC: mesa contra a parede, esquadro, sem apertar, vários pontos, a
+  maior medida, contar nervuras e fechos) e "Peças e medidas": estojo com
+  lista de peças e fórmulas (construção com as laterais cobrindo tudo) e
+  exemplo em mm; caixa de bandejas com as medidas do roteiro da AIC (Book
+  and Paper Group Wiki) em espessuras de cartão — bandeja pequena, grande,
+  capa, lombada e juntas — e exemplo em mm. "As três medidas da bandeja"
+  (que descrevia duas) saiu.
+- **[conteúdo — conservação] Estojo.** O NEDCC não recomenda estojo para
+  guardar livro (atrito e lombada à luz). O alerta passou a valer para toda
+  encadernação, não só couro; estojo sozinho ficou para livro de uso.
+  R&E: não fazer entalhe de polegar em estojo simples (força a charneira).
+- **[erro] Ajuste.** "Folga de 3–4 mm na clamshell" contradizia as fontes:
+  caixa de conservação é justa (NEDCC: folgada, o livro se mexe e sofre
+  atrito; justa, machuca bordas e charneiras). Tabela "Folgas e cartão"
+  → "Ajuste e cartão".
+- [conteúdo] Novos: envelope de quatro abas (NEDCC, até ~12 mm); *drop-back*
+  × *drop-front* e o *pull-off box* chamado de Solander por engano (R&E);
+  *chemise et étui* da encadernação francesa; a colagem das bandejas na
+  capa com uma posicionando a outra (AIC); PVA em caixa fechada solta ácido
+  acético — arejar alguns dias ou usar engrudo/metilcelulose (AIC);
+  papelão cinza ácido e a exceção do azul da Prússia (caps. 5 e 18).
+- [melhoria — repetição] "Proteger o painel impresso" virou a tabela de
+  riscos da caixa com remissão ao cap. 16; o verniz, a laminação e o
+  "truque" ficaram só lá.
+- [forma — voz de negócio] Saíram "o item de maior margem do catálogo",
+  "venda clamshell e cobre por isso", "o momento que o cliente fotografa",
+  "diferencial visual do ateliê", "peça de gama", a seção **Preço** inteira
+  e a remissão ao `NEGOCIO.md`. Fontes refeitas, sem a história da
+  migração; entraram NEDCC e AIC.
+- [forma] "Slipcase" → "estojo" no texto (o termo inglês fica entre
+  parênteses). Ordem da caixa de bandejas refeita: cada peça medida sobre a
+  anterior. Armadilhas novas: medida menor que o livro, justo demais,
+  bandejas tortas, cheiro de vinagre, entalhe de polegar. A tabela ✅/❌,
+  que quebrava entre páginas, virou duas linhas.
+- Remissões: cap. 10 (laser só no 16; a caixa no 19), cap. 16 ("folgas" →
+  "peças e medidas").

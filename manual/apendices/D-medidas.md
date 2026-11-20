@@ -208,13 +208,30 @@
 
 ## 19 · Caixas, estojos e proteção
 
-**Folgas e cartão**
+**Ajuste e cartão**
 
 | Parâmetro | Valor |
 |---|---|
-| Folga, slipcase | **2–3 mm** no total de largura e espessura |
-| Folga, clamshell | **3–4 mm** |
-| Cartão, parede de slipcase | 2 mm |
-| Cartão, bandeja de clamshell | 2–3 mm |
+| Ajuste, caixa de bandejas | **justo**: o livro não se mexe. O roteiro abaixo dá zero de folga na espessura e ~1,5 mm na altura |
+| Ajuste, estojo | **desliza sem forçar e não cai** de boca para baixo. Comece com **1–2 mm** na altura e na espessura, medidos sobre o forro |
+| Cartão, parede de estojo | 2 mm |
+| Cartão, bandeja | 2–2,5 mm (o roteiro da AIC usa 2,5 mm) |
 | Cartão, chemise | 1–1,5 mm |
+| Cartão, envelope de quatro abas | 0,25–0,5 mm, sem lignina |
 | Virada do forro | 15–20 mm |
+
+**Caixa de bandejas**
+
+| Peça | Qtd. | Medida |
+|---|---|---|
+| Base | 1 | (A + 1,5 mm) × L |
+| Parede da goteira | 1 | (A + 1,5 mm) × (E + t) |
+| Paredes de cabeça e pé | 2 | (L + t) × (E + t) |
+
+**Caixa de bandejas (2)**
+
+| Peça | Qtd. | Medida |
+|---|---|---|
+| Base | 1 | (A + 1,5 mm + 3t) × (L + 1,5t) |
+| Parede da goteira | 1 | (A + 1,5 mm + 3t) × (E + 2,5t) |
+| Paredes de cabeça e pé | 2 | (L + 2,5t) × (E + 2,5t) |

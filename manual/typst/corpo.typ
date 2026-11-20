@@ -3106,7 +3106,7 @@ Agravante: #strong[se a peça for laminada, o filme é barreira de vapor.] A ág
 
 #strong[E antes da cola, o papel.] Papel revestido para jato de tinta retém o corante numa camada própria e é muito mais resistente à migração que papel comum. Isso resolve metade do problema antes de qualquer adesivo.
 
-A ordem de montagem do painel, o tratamento da borda de corte, a abrasão e a alternativa de imprimir em laser estão no #strong[cap. 16] e no #strong[cap. 19]\.
+A ordem de montagem do painel, o tratamento da borda de corte, a abrasão e a alternativa de imprimir em laser estão no #strong[cap. 16]\; a caixa em si, no #strong[cap. 19]\.
 
 #v(0.6em)
 
@@ -5178,7 +5178,7 @@ Filme transparente autoadesivo (PET ou PVC + adesivo sensível à pressão, com 
 
 #strong[Duas notas de oficina:] passe a dobradeira sempre sobre papel siliconado, nunca direto no impresso; e deixe o painel colado sob prensa com papel siliconado por cima, porque #strong[verniz mal curado gruda em tudo]\.
 
-#emph[(Construção das caixas, folgas e cartão: cap. 19. O melhor lugar para a cor de corante é o forro interno de uma caixa de bandejas, que nunca vê luz nem sofre atrito — também no cap. 19.)]
+#emph[(Construção das caixas, peças e medidas: cap. 19. O melhor lugar para a cor de corante é o forro interno de uma caixa de bandejas, que nunca vê luz nem sofre atrito — também no cap. 19.)]
 
 #heading(level: 3)[Testes antes da peça]
 
@@ -6123,9 +6123,9 @@ Em ordem de custo-benefício (preços de 2026):
 // ══ 19 · Caixas, estojos e proteção (capitulos/19-caixas-e-estojos.md) ══
 #capitulo[19 · Caixas, estojos e proteção]
 
-#regra[#strong[A regra que resolve quase tudo:] monte a caixa #strong[em cima do livro pronto], nunca a partir do desenho. E some a espessura do forro no cálculo da folga — é o erro que faz a caixa não fechar depois de forrada.]
+#regra[#strong[A regra que resolve quase tudo:] monte a caixa #strong[em cima do livro pronto], nunca a partir do desenho — e cada peça em cima da anterior já forrada. E some a espessura do forro no cálculo — é o erro que faz a caixa não fechar depois de forrada.]
 
-A caixa é o item de maior margem do catálogo: material barato, produção rápida, percepção de valor altíssima. E é o objeto que mais protege o livro — da luz, da poeira e, sobretudo, do atrito da estante.
+A caixa é o objeto que mais protege o livro: da luz, da poeira, da poluição do ar e do atrito da estante. Para a conservação, a caixa fechada feita sob medida é, nas palavras do NEDCC, "de longe a melhor solução".
 
 #v(0.6em)
 
@@ -6134,94 +6134,182 @@ A caixa é o item de maior margem do catálogo: material barato, produção ráp
 #tabela(3)(
   ([Estrutura], [Proteção], [Use quando]),
   (
-    [#strong[Slipcase] (estojo aberto)], [média], [Livro em papel ou tecido, brochura reencadernada, edição própria],
-    [#strong[Slipcase + chemise]], [boa], [#strong[Couro] — a chemise sai junto, o atrito é chemise/estojo],
-    [#strong[Clamshell / Solander]], [máxima], [#emph[Fine binding], peça de gama, livro que precisa durar],
+    [#strong[Caixa de bandejas] (#emph[clamshell], #emph[drop-spine])], [máxima], [Couro, douração, peça única, livro que precisa durar],
+    [#strong[Estojo + chemise] (#emph[slipcase])], [boa], [Couro — a chemise sai junto, o atrito é chemise/estojo. A dupla clássica da encadernação de arte francesa (#emph[chemise et étui])],
+    [#strong[Estojo sozinho]], [baixa para o livro], [Livro de uso, em papel ou tecido, onde o desgaste é aceito],
     [#strong[Chemise sozinha]], [baixa], [Dentro de outra caixa, ou proteção provisória],
+    [#strong[Envelope de quatro abas] (#emph[wrapper])], [básica], [Livro fino (até \~12 mm), brochura, folheto; provisório],
     [#strong[Chitsu] (japonês)], [boa], [Livro em costura japonesa; tecido e cartão fino],
     [#strong[Portfólio / pasta]], [média], [Folhas soltas, gravuras, documentos]
   )
 )
 
-#heading(level: 3)[Folgas e cartão]
+#heading(level: 3)[Ajuste e cartão]
 
 #tabela(2)(
   ([Parâmetro], [Valor]),
   (
-    [Folga, slipcase], [#strong[2–3 mm] no total de largura e espessura],
-    [Folga, clamshell], [#strong[3–4 mm]],
-    [Cartão, parede de slipcase], [2 mm],
-    [Cartão, bandeja de clamshell], [2–3 mm],
+    [Ajuste, caixa de bandejas], [#strong[justo]: o livro não se mexe. O roteiro abaixo dá zero de folga na espessura e \~1,5 mm na altura],
+    [Ajuste, estojo], [#strong[desliza sem forçar e não cai] de boca para baixo. Comece com #strong[1–2 mm] na altura e na espessura, medidos sobre o forro],
+    [Cartão, parede de estojo], [2 mm],
+    [Cartão, bandeja], [2–2,5 mm (o roteiro da AIC usa 2,5 mm)],
     [Cartão, chemise], [1–1,5 mm],
+    [Cartão, envelope de quatro abas], [0,25–0,5 mm, sem lignina],
     [Virada do forro], [15–20 mm]
   )
 )
 
-#regra[#strong[Some o forro na conta.] A folga é entre o livro e a #strong[superfície final forrada], não entre o livro e o cartão nu. Duas camadas de papel de 120 g mais a cola comem quase 1 mm de cada lado.]
+#regra[#strong[Folgada demais ou justa demais, as duas estragam] (NEDCC). Folgada, o livro se mexe dentro da caixa e sofre o atrito que a caixa devia evitar. Justa, machuca as bordas e as charneiras na hora de entrar e sair.]
+
+#regra[#strong[Some o forro na conta.] A medida que vale é a da #strong[superfície final forrada], não a do cartão nu. Duas camadas de papel de 120 g mais a cola comem quase 1 mm de cada lado.]
 
 #v(0.6em)
 
 #heading(level: 2)[O alerta que define a escolha]
 
-#strong[Slipcase desgasta encadernação em couro.] Cada vez que o livro entra e sai, o couro raspa na boca do estojo. Em couro de cabra com douração, isso lixa o ouro em poucos anos — e lixa justamente a lombada, que é a parte que aparece.
+#strong[Estojo desgasta encadernação.] Cada vez que o livro entra e sai, a encadernação raspa na boca do estojo. Em couro de cabra com douração, isso lixa o ouro em poucos anos — e lixa justamente a lombada, que é a parte que aparece. E a lombada fica exposta à luz.
 
-Três saídas:
+A conservação vai mais longe: o NEDCC simplesmente #strong[não recomenda estojo] para guardar livro, por esses dois motivos. Três saídas:
 
-+ #strong[Clamshell] — o livro é pousado, não deslizado. Zero atrito.
-+ #strong[Slipcase + chemise] — a chemise sai junto com o livro, e o atrito passa a ser chemise contra estojo.
-+ #strong[Slipcase só para livro em papel ou tecido], onde o desgaste é aceitável.
++ #strong[Caixa de bandejas] — o livro é pousado, não deslizado. Zero atrito, lombada no escuro.
++ #strong[Estojo + chemise], ou estojo com caixa interna (Roberts & Etherington) — o livro sai protegido, e o atrito passa a ser chemise contra estojo.
++ #strong[Estojo sozinho só para livro de uso], em papel ou tecido, aceitando o desgaste.
 
-Para a linha premium, #strong[venda clamshell e cobre por isso]\. Slipcase fica para a linha simples.
+Para o livro em couro dourado: caixa de bandejas, ou a dupla chemise + estojo.
 
 #v(0.6em)
 
 #heading(level: 2)[As estruturas]
 
-#heading(level: 3)[Slipcase]
+#heading(level: 3)[Estojo (#emph[slipcase])]
 
 Caixa de quatro paredes e um fundo, aberta num lado, de onde o livro é puxado pela lombada.
 
 - A #strong[lombada do livro fica exposta] — é o que permite ler o título na estante, e é também o que a expõe à luz e à poeira.
-- Se você acrescentar uma chemise, a lombada do livro fica coberta, e aí #strong[o título tem que ir na boca do estojo]\.
-
-#strong[Construção:] duas paredes grandes (frente e verso), duas estreitas (cabeça e pé), e um fundo. Montam-se com fita de reforço nas juntas internas, depois se forra tudo.
+- Se você acrescentar uma chemise, a lombada do livro fica coberta, e aí #strong[o título vai na lombada da chemise ou no fundo do estojo]\.
+- #strong[Não faça o entalhe para o polegar num estojo simples.] Para tirar o livro pelo entalhe, puxa-se pela pasta: força a charneira e suja o revestimento (Roberts & Etherington). O entalhe só serve quando o que se puxa é uma chemise ou caixa interna.
+- Pode ganhar fundo arredondado e falsas nervuras, para parecer a lombada de um livro na estante. Trabalho de peça especial.
 
 #heading(level: 3)[Chemise]
 
-Uma camisa de cartão fino forrado, com abas que envolvem as pastas do livro. Historicamente (séc. XV) era de seda ou pele, usada para proteger a encadernação — às vezes no lugar dela.
+Uma camisa de cartão fino forrado que envolve o livro. Historicamente (séc. XV) era de seda ou de pelica, usada para proteger a encadernação de couro — às vezes no lugar dela.
 
-Hoje, a função é quase sempre ser a peça de sacrifício dentro de um slipcase.
+Hoje, a função é ser a peça de sacrifício dentro do estojo. Na encadernação de arte francesa — a de Legrain e Rose Adler —, o livro costuma vir em #strong[chemise e estojo] (#emph[chemise et étui]): a chemise, muitas vezes com lombada de couro; o estojo, com as bordas debruadas, recebe a chemise.
 
-#heading(level: 3)[Clamshell (Solander)]
+#heading(level: 3)[Caixa de bandejas (#emph[clamshell], #emph[drop-spine], Solander)]
 
-Duas bandejas de cartão, uma dentro da outra, unidas por uma lombada articulada. O livro repousa na bandeja de baixo; a de cima fecha por cima.
+Duas bandejas de cartão, uma dentro da outra, coladas numa capa articulada. O livro repousa na bandeja de baixo; a de cima fecha por cima.
 
 Vale saber a origem: foi inventada por #strong[Daniel Charles Solander], botânico do British Museum, entre 1773 e 1782. A caixa original era de madeira, com juntas em rabo-de-andorinha e fechos de mola — e Roberts & Etherington observam que, bem construída, é #emph[quase à prova de poeira e quase à prova d'água]\.
 
-#tabela(2)(
-  ([], []),
-  (
-    [✅], [Proteção máxima: luz, poeira, atrito],
-    [✅], [O livro é pousado, nunca deslizado],
-    [✅], [Pode ter lombada arredondada e nervuras, imitando um livro],
-    [❌], [Mais trabalho: 2 bandejas + estrutura + forro],
-    [❌], [Ocupa mais espaço na estante]
-  )
-)
+A lombada que #strong[cai] ao abrir (#emph[drop-back]) é a forma certa: aberta, a dobradiça fica reta; fechada, em ângulo reto. Não força nunca. (A caixa de tampa que encaixa por cima, #emph[pull-off box], é chamada de Solander por engano — R&E.)
 
-#strong[As três medidas da bandeja:] a de baixo recebe o livro com a folga; a de cima recebe #strong[a de baixo] com nova folga. É por isso que a folga do clamshell é maior — ela acumula duas vezes.
+- #strong[A favor:] proteção máxima (luz, poeira, atrito); o livro é pousado, nunca deslizado; pode ter lombada arredondada e nervuras, imitando um livro.
+- #strong[Contra:] mais trabalho (duas bandejas, capa e forro) e mais espaço na estante.
+
+#heading(level: 3)[Envelope de quatro abas (#emph[wrapper])]
+
+Um cartão fino vincado em cruz, com quatro abas que dobram sobre o livro. Rápido e barato, para livro fino. O NEDCC o recomenda até \~12 mm de espessura; acima disso as abas desalinham e os cantos abrem, deixando entrar luz e poeira. Fibra do cartão paralela aos vincos.
 
 #heading(level: 3)[Chitsu]
 
-A caixa japonesa: cartão fino forrado em tecido, com abas que dobram sobre o livro e fecham com presilhas de osso ou marfim. Leve, elegante, e a escolha natural para livro em costura japonesa.
+A caixa japonesa: cartão fino forrado em tecido, com abas que dobram sobre o livro e fecham com presilhas — tradicionalmente de osso ou marfim. Leve, elegante, e a escolha natural para livro em costura japonesa.
+
+#v(0.6em)
+
+#heading(level: 2)[Medir o livro]
+
+Tudo sai daqui. Três medidas: #strong[altura] (cabeça–pé), #strong[largura] (lombada–goteira) e #strong[espessura]\. O método do NEDCC, sem equipamento:
+
++ #strong[Uma mesa encostada numa parede] (ou numa caixa de papelão com dois lados cortados), um esquadro e uma régua com o zero #strong[na ponta]\.
++ #strong[Largura:] livro deitado, lombada encostada na parede — #strong[sem empurrar]: apertado contra a parede, ele mede menos do que é. Esquadro em pé tocando a goteira; leia na régua.
++ #strong[Altura:] igual, com a cabeça (ou o pé) encostada na parede.
++ #strong[Espessura:] livro deitado, régua em pé ao lado, esquadro descendo até tocar o ponto mais alto.
++ #strong[Em vários pontos, e fique com a maior.] Conte nervuras, fechos e cantoneiras na medida.
+
+Com paquímetro, a lógica é a mesma: a maior medida, sem apertar.
+
+#v(0.6em)
+
+#heading(level: 2)[Peças e medidas]
+
+Notação: #strong[A], #strong[L], #strong[E] = altura, largura e espessura do livro; #strong[t] = espessura do cartão.
+
+#heading(level: 3)[Estojo]
+
+Uma construção simples: as duas laterais grandes cobrem tudo; cabeça, pé e fundo ficam entre elas.
+
+Medidas internas (o livro, ou o livro na chemise):
+
+- altura interna #strong[Ai] = A + folga + 2 forros
+- espessura interna #strong[Ei] = E + folga + 2 forros
+- profundidade #strong[Pi] = L + 1 forro — a lombada fica rente à boca
+
+#tabela(3)(
+  ([Peça], [Qtd.], [Medida]),
+  (
+    [Lateral grande], [2], [(Ai + 2t) × (Pi + t)],
+    [Cabeça e pé], [2], [(Pi + t) × Ei],
+    [Fundo (o lado fechado, na goteira)], [1], [Ai × Ei]
+  )
+)
+
+#strong[Exemplo] — livro de 216 × 155 × 30 mm, cartão de 2 mm, folga de 1,5 mm, forro de \~0,2 mm: Ai ≈ 218, Ei ≈ 32, Pi ≈ 155 mm. Laterais #strong[222 × 157 mm]\; cabeça e pé #strong[157 × 32 mm]\; fundo #strong[218 × 32 mm]\.
+
+#heading(level: 3)[Caixa de bandejas]
+
+As medidas são as do roteiro do Book and Paper Group da AIC, escritas em espessuras de cartão (t). Ele foi feito para cartão de 2,5 mm e tecido de encadernação; com outros materiais, os acréscimos mudam um pouco. As paredes são coladas #strong[em volta] da base, de topo; a bandeja não tem parede do lado da lombada — quem fecha esse lado é a lombada da capa.
+
+#strong[Bandeja pequena] (a de baixo, que recebe o livro):
+
+#tabela(3)(
+  ([Peça], [Qtd.], [Medida]),
+  (
+    [Base], [1], [(A + 1,5 mm) × L],
+    [Parede da goteira], [1], [(A + 1,5 mm) × (E + t)],
+    [Paredes de cabeça e pé], [2], [(L + t) × (E + t)]
+  )
+)
+
+O 1,5 mm na altura é para as viradas do tecido.
+
+#strong[Bandeja grande] (a de cima, que veste a pequena):
+
+#tabela(3)(
+  ([Peça], [Qtd.], [Medida]),
+  (
+    [Base], [1], [(A + 1,5 mm + 3t) × (L + 1,5t)],
+    [Parede da goteira], [1], [(A + 1,5 mm + 3t) × (E + 2,5t)],
+    [Paredes de cabeça e pé], [2], [(L + 2,5t) × (E + 2,5t)]
+  )
+)
+
+#strong[Capa] — medida na bandeja grande #strong[já pronta e forrada]:
+
+#tabela(3)(
+  ([Peça], [Qtd.], [Medida]),
+  (
+    [Pastas], [2], [(comprimento da bandeja + 2 a 3t) × (largura da bandeja + 1 a 1,5t)],
+    [Lombada], [1], [mesmo comprimento das pastas × altura exata da bandeja grande],
+    [Junta (vão entre lombada e cada pasta)], [2], [t + a espessura de um cartão de passe-partout (\~1,5 mm)]
+  )
+)
+
+#strong[Exemplo] — o mesmo livro de 216 × 155 × 30 mm, cartão de 2,5 mm:
+
+- #strong[Bandeja pequena:] base #strong[217,5 × 155]\; goteira #strong[217,5 × 32,5]\; cabeça e pé #strong[157,5 × 32,5 mm]\.
+- #strong[Bandeja grande:] base #strong[225 × 158,75]\; goteira #strong[225 × 36,25]\; cabeça e pé #strong[161,25 × 36,25 mm]\.
+- #strong[Capa:] medida na bandeja grande pronta.
+
+#regra[#strong[As fórmulas são o ponto de partida; a peça anterior é a medida.] Corte a bandeja pequena, monte, confira com o livro, forre. Só então confira as medidas da grande #strong[sobre a pequena forrada]\. E a capa sobre a grande. Se a conta e a peça discordarem, vale a peça.]
 
 #v(0.6em)
 
 #heading(level: 2)[A solução do painel — e por que virou princípio]
 
-Aqui está uma limitação de equipamento que vale a pena transformar em decisão de design.
+Aqui está uma limitação de equipamento que vale a pena transformar em decisão de projeto.
 
-#strong[O problema:] um slipcase para livro A5 tem perímetro de #emph[wrap] de 37–40 cm. Uma impressora A4 dá 29,7 cm. Não fecha.
+#strong[O problema:] um estojo para livro A5 tem perímetro de #emph[wrap] de 37–40 cm. Uma impressora A4 dá 29,7 cm. Não fecha.
 
 #strong[A solução errada] é emendar o papel. #strong[A certa é mudar a construção] — aplicando a lógica da meia-encadernação à caixa:
 
@@ -6236,47 +6324,36 @@ Isso resolve quatro problemas de uma vez:
 
 Três variações:
 
-- #strong[Painel #emph[inset] rebaixado] — moldura de cartão fino em volta; o impresso fica rebaixado \~0,5 mm. Acabamento de museu.
+- #strong[Painel #emph[inset] rebaixado] — moldura de cartão fino em volta; o impresso fica rebaixado \~0,5 mm. O acabamento mais fino, e o que mais protege a borda.
 - #strong[Painel #emph[onlay]] — colado por cima do forro, borda viva. Mais rápido, quase tão bom.
 - #strong[Etiqueta] — painel menor, centralizado. Sóbrio e barato.
 
-Para um #emph[wrap] inteiro sem emenda, mande um SRA3 para gráfica digital (R\$ 5–15) e reserve isso para as peças de gama.
+Para um #emph[wrap] inteiro sem emenda, mande um SRA3 para gráfica digital (R\$ 5–15 em 2026).
 
-#v(0.6em)
+#heading(level: 3)[O painel impresso, na caixa]
 
-#heading(level: 2)[Proteger o painel impresso]
-
-A caixa é o objeto mais manuseado do conjunto — muito mais que uma prancha interna. Com tinta corante (caps. 6 e 16), isso exige cuidado:
+Como proteger e aplicar a impressão — verniz, laminação, adesivo seco, a borda de corte — está no cap. 16 ("Capa, caixa e painel impressos"). Do ponto de vista da caixa, o que muda é o risco:
 
 #tabela(3)(
-  ([Risco], [Por quê], [Solução]),
+  ([Risco], [Por quê], [Onde se resolve]),
   (
-    [Cola faz sangrar], [PVA e engrudo são aquosos; corante dissolve], [Selar com verniz solvente #strong[antes] de colar, ou usar adesivo seco],
-    [Abrasão], [Estante, mão, mesa], [Verniz fosco (3–4 demãos) ou laminação a frio 30–40 µ],
+    [Cola faz sangrar], [Com tinta corante, PVA e engrudo dissolvem a cor], [Painel por último, com adesivo seco (cap. 16)],
+    [Abrasão], [A caixa é a peça mais manuseada do conjunto], [Laminação só na face, ou verniz (cap. 16); painel rebaixado],
     [Dedo úmido], [Manuseio constante], [Idem],
-    [#strong[Luz]], [#strong[A caixa fica exposta; a prancha interna não]], [Verniz com UV; evitar azuis e magentas saturados]
+    [#strong[Luz]], [#strong[A caixa fica na estante, exposta; o forro interno, não]], [Verniz com UV; evitar azuis e magentas saturados na face de fora]
   )
 )
 
-#strong[O truque que resolve quase tudo:] lamine #strong[só a face impressa] com BOPP fosco a frio. O verso continua papel cru, o PVA adere normalmente, e você ganha impermeabilidade e resistência à abrasão sem perder a colagem.
-
-- #strong[Laminação] → painéis planos, sem dobra.
-- #strong[Verniz] → #emph[wraps] que dobram, porque mantém o papel flexível. Laminado racha e descola na dobra.
-
 #v(0.6em)
 
-#heading(level: 2)[O interior: o melhor uso da sua impressora]
+#heading(level: 2)[O interior impresso]
 
-Isto é subaproveitado por quase todo mundo, e é onde a tinta corante brilha sem risco nenhum.
-
-#strong[O forro interno de uma clamshell nunca sofre abrasão, nunca vê luz e quase nunca é tocado.] Corante dura décadas ali — é o ambiente ideal.
+É onde a impressora rende mais, e onde a tinta corante tem o melhor ambiente possível: #strong[o forro interno de uma caixa de bandejas nunca sofre atrito, quase nunca vê luz e quase nunca é tocado.] É o mesmo princípio do cap. 1: o que não vê luz dura.
 
 - Padrão, mapa, ilustração, fac-símile de manuscrito.
-- O efeito #strong["abre e revela"]: caixa externa contida, interior expressivo. É o momento que o cliente fotografa.
-- Certificado numerado ou colofão em cor, colado na tampa interna.
-- Chemise impressa dentro de slipcase sóbria.
-
-#regra[Se houvesse que apostar num único diferencial visual do ateliê: #strong[o interior de caixa impresso]\.]
+- O efeito #strong["abre e revela"]: caixa externa contida, interior expressivo.
+- Colofão ou numeração da tiragem em cor, colado na tampa interna.
+- Chemise impressa dentro de um estojo sóbrio.
 
 #v(0.6em)
 
@@ -6284,16 +6361,17 @@ Isto é subaproveitado por quase todo mundo, e é onde a tinta corante brilha se
 
 #heading(level: 3)[Antes de cortar]
 
-+ #strong[Meça o livro pronto] — altura, largura, espessura. Com paquímetro ou compasso, não com régua de olho.
-+ #strong[Decida a folga] e #strong[some o forro]\.
++ #strong[Meça o livro pronto] (acima).
++ #strong[Decida o ajuste] e #strong[some o forro]\.
 + #strong[Confira a fibra do cartão] — paralela à lombada e às dobras. Caixa empenada é cartão com fibra errada.
-+ #strong[Faça um protótipo em cartão fino] se for peça de gama ou formato novo. A plotter corta protótipo em minutos (cap. 17).
++ #strong[Escolha o cartão.] O papelão cinza comum é ácido (cap. 5). Para caixa de guarda longa, cartão neutro, ou no mínimo forro neutro por dentro. (Exceção: livro com azul da Prússia ou cianotipia não quer cartão tamponado encostado — cap. 18.)
++ #strong[Faça um protótipo em cartão fino] se for peça única ou formato novo. A plotter corta protótipo em minutos (cap. 17).
 
 #heading(level: 3)[A ordem]
 
 A ordem de forrar #strong[muda com o tipo de caixa]\.
 
-#codigo(63, raw("ESTOJO (slipcase)
+#codigo(61, raw("ESTOJO (slipcase)
 1  Cortar as peças de cartão
 2  Forrar o INTERIOR de cada peça, ainda aberta
 3  Montar a estrutura
@@ -6303,19 +6381,35 @@ A ordem de forrar #strong[muda com o tipo de caixa]\.
 7  Secar  ◷ 24 h
 
 CAIXA DE BANDEJAS (clamshell)
-1  Cortar as peças de cartão
-2  Montar as duas bandejas
-3  Conferir: livro na menor, a menor na maior   ⚠ última chance
+1  Cortar e montar a bandeja pequena
+2  Conferir com o livro   ⚠ última chance
+3  Cortar e montar a grande, medindo sobre a pequena
 4  Revestir as bandejas por FORA, virando para dentro
-5  Fazer a capa e colar as bandejas nela
-6  Forrar o fundo das bandejas por DENTRO
-7  Painéis, etiquetas; secar sob peso  ◷ 24 h", block: true))
+5  Fazer a capa, medindo sobre a bandeja grande
+6  Colar a pequena na capa, depois a grande; prensar cada uma
+7  Forrar o fundo das bandejas por DENTRO
+8  Painéis, etiquetas; secar fechada, sob peso  ◷ uma noite", block: true))
 
 #regra[#strong[Quem cobre quem.] No estojo o forro interno vai primeiro, porque depois de montado a mão não alcança o fundo; o revestimento de fora vira para dentro da boca e cobre a borda dele. Na caixa de bandejas é o contrário: o tecido de fora vira para dentro das paredes, e o forro do fundo entra por último, cobrindo as viradas.]
 
+#heading(level: 3)[Colar as bandejas na capa sem desalinhar]
+
+O truque do roteiro da AIC: uma bandeja posiciona a outra.
+
++ Cola na base da bandeja pequena. Encaixe-a #strong[dentro da grande] e ponha o conjunto no lugar sobre a pasta de baixo.
++ #strong[Feche a capa] e confira: esquadrias iguais, a caixa de pé, reta.
++ Abra, tire a grande #strong[sem mover a pequena], e prense a pequena — pelo menos 20 minutos, peso forte.
++ Cola na base da grande. Encaixe-a sobre a pequena e #strong[feche a capa] sobre ela.
++ Confira, separe as bandejas sem mover a grande, e prense — de novo 20 minutos.
++ Caixa fechada, sob peso, uma noite.
+
+#heading(level: 3)[A cola, numa caixa fechada]
+
+O PVA solta ácido acético enquanto cura — e a caixa fechada guarda esse ar junto do livro. Há conservadores que trocam o PVA, no todo ou em parte, por engrudo ou metilcelulose (cap. 10). Outros mantêm o PVA e #strong[deixam a caixa aberta, arejando, alguns dias] antes de guardar o livro. Faça uma das duas.
+
 #heading(level: 3)[Dois detalhes de oficina]
 
-- Passe o osso #strong[sempre sobre papel siliconado], nunca direto no impresso.
+- Passe a dobradeira #strong[sempre sobre papel siliconado], nunca direto no impresso.
 - #strong[Não umedeça o verso do papel de forro] quando ele for impresso — a água atravessa e borra o corante pela frente. Só umedeça papel não impresso.
 
 #v(0.6em)
@@ -6339,30 +6433,29 @@ O que ela #strong[não] faz: cortar cartão de 2–3 mm. Não force.
 #tabela(3)(
   ([Problema], [Causa], [Prevenção]),
   (
-    [#strong[Caixa não fecha depois de forrada]], [Folga calculada sobre o cartão nu], [Somar o forro na folga],
+    [#strong[Caixa não fecha depois de forrada]], [Medidas tiradas do cartão nu], [Somar o forro; medir cada peça sobre a anterior forrada],
     [#strong[Caixa empenada]], [Fibra do cartão errada], [Fibra paralela à dobra],
-    [#strong[Livro folgado, chacoalha]], [Folga generosa demais], [2–3 mm total, não por lado],
-    [#strong[Painel impresso borrou]], [Cola aquosa sobre corante], [Selar com verniz solvente antes],
+    [#strong[Livro se mexe dentro da caixa]], [Folga demais], [Bandejas justas; estojo com 1–2 mm],
+    [#strong[Livro sai com esforço, charneira marcada]], [Justo demais], [Protótipo; conferir com o livro antes de revestir],
+    [#strong[Medida menor que o livro]], [Livro apertado contra o batente ao medir; uma medida só], [Medir sem empurrar, em vários pontos, ficar com a maior],
+    [#strong[Painel impresso borrou]], [Cola aquosa sobre corante], [Painel por último, adesivo seco (cap. 16)],
     [#strong[Bordas do forro à mostra]], [Ordem de forrar trocada], [Estojo: interior primeiro. Bandejas: exterior primeiro],
-    [#strong[A lombada do livro desbotou]], [Slipcase deixa a lombada exposta à luz], [Clamshell, ou chemise],
-    [#strong[O ouro da lombada sumiu]], [Atrito do slipcase], [Clamshell, ou chemise]
+    [#strong[Bandejas tortas na capa]], [Coladas uma de cada vez, sem referência], [Uma bandeja posiciona a outra; fechar a capa para conferir],
+    [#strong[Cheiro de vinagre ao abrir]], [PVA recém-curado, caixa fechada], [Arejar a caixa alguns dias, ou engrudo/metilcelulose],
+    [#strong[A lombada do livro desbotou]], [Estojo deixa a lombada exposta à luz], [Caixa de bandejas, ou chemise],
+    [#strong[O ouro da lombada sumiu]], [Atrito do estojo], [Caixa de bandejas, ou chemise],
+    [#strong[Charneira forçada, revestimento sujo na pasta]], [Entalhe de polegar num estojo simples], [Sem entalhe; ou chemise com entalhe]
   )
 )
 
 #v(0.6em)
 
-#heading(level: 2)[Preço]
-
-A caixa é upsell de conversão alta: quem gastou R\$ 1.500 num livro gasta mais R\$ 400 para protegê-lo. #strong[Nunca embuta no preço do livro] — ofereça à parte.
-
-A tabela de preços sugeridos está no #raw("NEGOCIO.md"), junto com o argumento de vender #strong[caixa avulsa como serviço]: colecionador com primeira edição, Bíblia de família, livro assinado. Produção de 3–5 h, sem risco autoral nenhum, e é a porta de entrada para o cliente que depois volta para uma encadernação completa.
-
-#v(0.6em)
-
 #heading(level: 2)[Fontes]
 
-- #strong[Roberts & Etherington], #emph[Bookbinding and the Conservation of Books] (1982) — verbetes SLIPCASE, SOLANDER BOX, CHEMISE, PULL-OFF BOX, BOX.
-- A construção do painel e a estratégia de interior impresso vêm das conversas de pesquisa; estavam no #raw("NEGOCIO.md") e migraram para cá, que é onde a técnica pertence.
+- #strong[Roberts & Etherington,] #emph[Bookbinding and the Conservation of Books] (1982) — verbetes SLIPCASE (ajuste, chemise ou caixa interna, o entalhe que não se faz), SOLANDER BOX (origem, #emph[drop-back] × #emph[drop-front]), PULL-OFF BOX, CHEMISE, DOUBLE SLIPCASE, PORTFOLIO, BOX.
+- #strong[NEDCC,] #emph[Preservation Leaflet 7.4: Custom Protective Enclosures] — caixa fechada como a melhor proteção, o estojo que não se recomenda, o ajuste, o método de medir, o envelope de quatro abas.
+- #strong[AIC Book and Paper Group Wiki,] "Drop Spine Box" — as medidas das bandejas e da capa em espessuras de cartão, a ordem de colagem, o PVA em caixa fechada.
+- #strong[Conversas de pesquisa] — o painel impresso e o interior impresso, a ordem de forrar, o papel da plotter.
 
 // ══════ V · O livro que já existe ══════
 #parte[V · O livro que já existe]
@@ -7085,10 +7178,11 @@ Cada bloco indica o capítulo de origem, onde está o porquê.
 #tabela(3)(
   ([Estrutura], [Proteção], [Use quando]),
   (
-    [#strong[Slipcase] (estojo aberto)], [média], [Livro em papel ou tecido, brochura reencadernada, edição própria],
-    [#strong[Slipcase + chemise]], [boa], [#strong[Couro] — a chemise sai junto, o atrito é chemise/estojo],
-    [#strong[Clamshell / Solander]], [máxima], [#emph[Fine binding], peça de gama, livro que precisa durar],
+    [#strong[Caixa de bandejas] (#emph[clamshell], #emph[drop-spine])], [máxima], [Couro, douração, peça única, livro que precisa durar],
+    [#strong[Estojo + chemise] (#emph[slipcase])], [boa], [Couro — a chemise sai junto, o atrito é chemise/estojo. A dupla clássica da encadernação de arte francesa (#emph[chemise et étui])],
+    [#strong[Estojo sozinho]], [baixa para o livro], [Livro de uso, em papel ou tecido, onde o desgaste é aceito],
     [#strong[Chemise sozinha]], [baixa], [Dentro de outra caixa, ou proteção provisória],
+    [#strong[Envelope de quatro abas] (#emph[wrapper])], [básica], [Livro fino (até \~12 mm), brochura, folheto; provisório],
     [#strong[Chitsu] (japonês)], [boa], [Livro em costura japonesa; tecido e cartão fino],
     [#strong[Portfólio / pasta]], [média], [Folhas soltas, gravuras, documentos]
   )
@@ -7758,17 +7852,40 @@ Fornecedor bom de material de encadernação é raro e vira parceiro de anos.
 
 #heading(level: 2)[19 · Caixas, estojos e proteção]
 
-#strong[Folgas e cartão]
+#strong[Ajuste e cartão]
 
 #tabela(2)(
   ([Parâmetro], [Valor]),
   (
-    [Folga, slipcase], [#strong[2–3 mm] no total de largura e espessura],
-    [Folga, clamshell], [#strong[3–4 mm]],
-    [Cartão, parede de slipcase], [2 mm],
-    [Cartão, bandeja de clamshell], [2–3 mm],
+    [Ajuste, caixa de bandejas], [#strong[justo]: o livro não se mexe. O roteiro abaixo dá zero de folga na espessura e \~1,5 mm na altura],
+    [Ajuste, estojo], [#strong[desliza sem forçar e não cai] de boca para baixo. Comece com #strong[1–2 mm] na altura e na espessura, medidos sobre o forro],
+    [Cartão, parede de estojo], [2 mm],
+    [Cartão, bandeja], [2–2,5 mm (o roteiro da AIC usa 2,5 mm)],
     [Cartão, chemise], [1–1,5 mm],
+    [Cartão, envelope de quatro abas], [0,25–0,5 mm, sem lignina],
     [Virada do forro], [15–20 mm]
+  )
+)
+
+#strong[Caixa de bandejas]
+
+#tabela(3)(
+  ([Peça], [Qtd.], [Medida]),
+  (
+    [Base], [1], [(A + 1,5 mm) × L],
+    [Parede da goteira], [1], [(A + 1,5 mm) × (E + t)],
+    [Paredes de cabeça e pé], [2], [(L + t) × (E + t)]
+  )
+)
+
+#strong[Caixa de bandejas (2)]
+
+#tabela(3)(
+  ([Peça], [Qtd.], [Medida]),
+  (
+    [Base], [1], [(A + 1,5 mm + 3t) × (L + 1,5t)],
+    [Parede da goteira], [1], [(A + 1,5 mm + 3t) × (E + 2,5t)],
+    [Paredes de cabeça e pé], [2], [(L + 2,5t) × (E + 2,5t)]
   )
 )
 
