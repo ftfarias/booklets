@@ -1,44 +1,46 @@
-# Impressão
+# Impressão do miolo
 
-> **A regra de ouro da proteção:** sobre tinta corante, **só verniz à base
-> de solvente**. Qualquer coisa aquosa dissolve o corante e borra —
-> inclusive o verniz "acrílico à base d'água".
+> **A regra que resolve quase tudo:** na L4360, **o preto é pigmento e as
+> cores são corante**. Texto em preto puro, no modo que usa o pigmento,
+> sai à prova d'água e de cola; cor no miolo é passivo. Quanto mais
+> absorvente o papel e mais densa a página, menos tinta — e nenhuma folha
+> se dobra antes de curar e passar pela prensa.
+
+Este capítulo é sobre imprimir o **miolo** em casa: a máquina, o arquivo,
+o papel, a ondulação, as imagens. Capa, caixa e painel impressos — verniz,
+laminação, montagem — estão no cap. 16.
 
 ## Consulta rápida — o que fazer em cada situação
 
 | Situação | Resposta |
 |---|---|
 | Texto preto no miolo | K puro / "Preto e escala de cinza" no driver. Já é à prova d'água |
+| Qualidade no driver | Papel liso: Alta. Papel absorvente com página cheia: Normal |
+| Nitidez de texto máxima | Alinhamento de cabeça + alta velocidade **desligada** |
+| Folha ondulada | Secar 24 h separada, prensar 24–48 h, só então dobrar |
 | Cor no miolo | Evite. Se houver, 24 h de secagem e nenhuma cola encostando na área colorida |
-| Proteger impressão colorida dentro do livro | Verniz acrílico **spray, base solvente**, 3–4 demãos, cura 72 h |
-| Peça que vai encarar líquido de verdade | Laminação a frio (BOPP autoadesivo) nos dois lados, com encapsulamento de 3–5 mm |
-| Painel colorido em caixa/slipcase | Laminar só a face impressa (o verso fica papel cru e cola normalmente) |
-| Laminação a quente enrugando | Secar 24–48 h → 90 °C → filme 30–35 µ → *carrier* |
-| Nitidez de texto máxima | Alinhamento de cabeça + alta velocidade **desligada** + qualidade Alta |
+| Imagem colorida no livro | Prancha em papel fotográfico fosco, colada pela margem (*tip-in*) |
 | Papel couché comum | Não funciona. Incompatibilidade física, não questão de tempo |
 | Tiragem acima de ~5 exemplares | Terceirizar em laser/toner |
+| Capa, caixa ou painel impressos | Cap. 16 |
 
 ### O critério, quando a tabela não cobre
 
 - **A tinta preta é pigmentada; as cores são corante.** Tudo neste capítulo
   decorre daí. Preto = estável, à prova d'água, resistente a cola. Cor =
   hidrossolúvel, sensível à luz e a poluentes.
-- **Toda a água que entra no papel tem que sair.** Se houver barreira
-  (laminado, verniz), ela sai devagar e pelas bordas — daí a bolha, o
-  tunelamento e o painel que se levanta semanas depois.
+- **Jato de tinta deposita água.** A folha ondula ao secar, e essa água tem
+  de sair antes de a folha ser dobrada, colada ou prensada contra outra.
 - **Papel revestido para inkjet retém o corante numa camada polimérica.**
-  Papel comum não. Metade dos problemas de corante se resolvem antes de
-  qualquer verniz, só trocando o papel.
-- **Se a fidelidade de cor servir, o laser/toner elimina a cadeia inteira
-  de problemas.** Custa alguns reais por folha numa gráfica rápida.
+  Papel comum não. Metade dos problemas da cor se resolve trocando o papel.
 
 ---
 
-## Parte I — Fazer a L4360 render um miolo profissional
+## A L4360 e o miolo
 
 ### Primeiro, entender a máquina
 
-A EcoTank L4360 usa o kit de tintas 504 (T504 / linha 544): **preto
+A EcoTank L4360 usa as tintas da linha **504** (T504): **preto
 pigmentado + ciano, magenta e amarelo à base de corante (*dye*)**. Isso
 explica praticamente todo o comportamento dela.
 
@@ -99,16 +101,12 @@ Nesta ordem:
    "Econômico". Se houver controle de densidade em Personalizado →
    Avançado, reduzir um pouco a saturação ajuda em papel liso.
 
-> ⚠️ **Divergência nas fontes.** Uma conversa manda usar qualidade
-> **"Alta"** para ganhar nitidez; outra manda usar **"Normal/Padrão"**
-> para reduzir a ondulação, argumentando que a 1440 dpi o texto já está
-> ótimo. As duas estão certas em contextos diferentes, e a distinção é
-> **o papel**: em papel liso e pouco absorvente (Opalina, matte revestido),
-> Alta ganha, porque a tinta não espalha e a ondulação é menor. Em papel
-> absorvente e de miolo (Pólen, offset), com página cheia de texto, Alta só
-> deposita mais água sem ganho visível — aí Normal é a escolha. A regra
-> operacional: **quanto mais absorvente o papel e mais densa a página,
-> menos tinta.**
+> **Alta ou Normal? Depende do papel.** Em papel liso e pouco absorvente
+> (Opalina, matte revestido), Alta ganha: a tinta não espalha e a
+> ondulação é menor. Em papel absorvente de miolo (Pólen, offset), com a
+> página cheia de texto, Alta só deposita mais água sem ganho visível — a
+> 1440 dpi o texto já está ótimo, e Normal é a escolha. A regra:
+> **quanto mais absorvente o papel e mais densa a página, menos tinta.**
 
 ### Camada 2 — O arquivo (o culpado silencioso mais comum)
 
@@ -202,7 +200,7 @@ preto.
 ### Ondulação: o protocolo completo
 
 1. Papel de 90 g/m² ou mais, com **fibra na direção certa**
-2. Qualidade adequada à absorvência do papel (ver a divergência acima)
+2. Qualidade adequada à absorvência do papel (Camada 1)
 3. Folhas secando **24 h, separadas ou intercaladas** — nunca empilhadas
    coladas
 4. **Prensa entre tábuas, 24–48 h**, antes de dobrar
@@ -239,22 +237,14 @@ qualquer coisa acima de ~5 exemplares.** Procure uma gráfica que aceite
 imposição já pronta em PDF. Vale visitar 4 ou 5 até achar um operador que
 entenda o pedido — quando achar, é parceiro de anos.
 
-> ⚠️ **Divergência nas fontes sobre comprar uma laser.** Uma conversa
-> recomenda comprar uma laser monocromática de entrada (Brother HL-B2000D /
-> HL-L2400, ou HL-L5100/L6202 mais robusta, R$ 1.500–3.500) porque "toner é
-> plástico fundido: não penetra, não espalha, sem ganho de ponto, seca
-> instantaneamente, à prova d'água". Outra conversa, já sabendo que o preto
-> é pigmentado, **cancela essa compra**: para livro de arte a laser
-> geralmente perde — o toner fica *sobre* a superfície com brilho plástico
-> perceptível, achata a textura do papel e **pode craquelar na dobra**,
-> especialmente em papel encorpado e em áreas de preto chapado. Jato de
-> tinta pigmentado em papel de algodão é o padrão da encadernação fina
-> contemporânea, não a exceção. **A posição adotada:** não comprar laser;
-> realocar o dinheiro para os equipamentos que sobem o ticket e
-> terceirizar volume quando precisar. A laser continua
-> sendo a resposta certa quando o critério é **volume e custo**, não
-> qualidade de objeto — daí a recomendação persistir na conversa de
-> negócio.
+**Comprar uma laser?** Para volume e custo, ela é a resposta: toner é
+plástico fundido — não penetra, não espalha, não tem ganho de ponto, seca
+na hora e é à prova d'água. Para o livro como objeto, não: o toner fica
+**sobre** o papel, com brilho plástico, achata a textura e **pode
+craquelar na dobra**, sobretudo em papel encorpado e em preto chapado.
+Jato de tinta pigmentado em papel de algodão é comum entre os livros de
+artista de hoje. **A decisão adotada:** não comprar laser; terceirizar o
+volume quando precisar.
 
 O upgrade que faz sentido para livro de arte não é laser: é uma
 **Epson SureColor P700/P900** (ou similar com pigmento em múltiplas
@@ -263,232 +253,9 @@ preto matte próprio, formato A3+ (P700) ou A2 (P900).
 
 ---
 
-## Parte II — Proteger impressões a corante
+## Imagens no miolo
 
-### A regra de ouro
-
-**Corante é hidrossolúvel.** Qualquer coisa à base de água sobre ele —
-verniz acrílico aquoso, PVA diluído, cola em spray aquosa, respingo de
-umidade — dissolve o corante e faz sangrar. As cores viram um borrão,
-principalmente pretos compostos e áreas escuras.
-
-**Verniz à base de solvente** (acrílico em spray comum, tipo
-automotivo/artístico) não dissolve o corante: **encapsula**.
-
-> **E aqui está o truque que vale ouro para encadernação:** depois de
-> selado com 3–4 demãos de verniz solvente, **a impressão fica compatível
-> com meios aquosos.** Você pode passar PVA, colar, prensar, até aquarelar
-> por cima. É o método padrão para trabalhar sobre inkjet.
-
-*(Que adesivo usar para colar a impressão em si — inclusive por que amido e
-CMC são as piores escolhas nesse caso — está no **cap. 10**.)*
-
-### Como aplicar: o erro clássico é a primeira demão
-
-1. **Cure a impressão:** 24 h no mínimo, 48 h ideal. Corante
-   recém-impresso ainda tem solvente/glicol na superfície.
-2. **Primeira demão = "demão de poeira".** Spray a 30–40 cm, movimento
-   rápido, cobertura parcial, quase seco ao tocar o papel. **Se você
-   encharcar na primeira demão, o solvente carrega o corante lateralmente
-   e você vê halos.** Espere 15 min.
-3. **Segunda demão leve, cruzada** (perpendicular à primeira). Espere
-   20 min.
-4. **Terceira e quarta demãos** já podem ser mais generosas. É daí em
-   diante que vem a barreira real de água.
-5. **Cura total: 72 h antes de prensar ou colar.** Verniz "seco ao toque"
-   em 20 min ainda está liberando solvente, e sob prensa gruda na folha
-   vizinha.
-6. Ambiente ventilado, máscara. **Nada de fazer isso na mesma sala do
-   couro e do papel** — o *overspray* assenta em tudo.
-
-Para proteção de verdade sobre papel glossy inkjet, a orientação da Golden
-é mais dura ainda: **6–10 camadas leves** aplicadas a spray. Duas demãos
-não é proteção, é ilusão. E **não pincele as primeiras demãos sobre glossy
-inkjet — arrasta.** Spray só.
-
-### Produtos e faixas de preço no Brasil
-
-| Faixa | Produto | Observação |
-|---|---|---|
-| **Ideal** | Hahnemühle Protective Spray, Ghiant Inkjet Fixative, Marabu Fixativ, **Golden Archival MSA / Archival Varnish aerossol** | Formulados para inkjet, não amarelam, removíveis. Caros e escassos no Brasil |
-| **Melhor custo/benefício** | **Krylon Kamar Varnish** (primeira camada) + **Krylon UV-Resistant Clear** | O combo consagrado. O Kamar é feito exatamente para selar inkjet sem sangrar. Importado, mas aparece aqui |
-| **Prático no Brasil** | Corfix Verniz Acrílico Spray, Acrilex Verniz Spray, Colorgin Verniz Geral, Chemicolor | Funcionam bem. **Testar amarelecimento** — verniz barato amarela em 1–2 anos, o que é fatal em branco de papel |
-| **Para slipcase** | Verniz PU automotivo spray | Bem mais duro e resistente à água. Não é arquivístico e pode amarelar |
-| **Evitar** | Qualquer verniz "base água / à base d'água", fixador de cabelo, PVA diluído | **Sangram** |
-| **Cuidado** | Verniz automotivo brilhante | Sela muito bem, mas é espesso, amarela, e o cheiro persiste em livro fechado |
-
-> **Nota da Golden, explícita:** o Polymer Varnish (aquoso) **não deve ser
-> usado** em impressões digitais, porque as tintas são hidrossolúveis e vão
-> manchar. Para isso existe o **MSA Varnish** (base aguarrás) e o Archival
-> Varnish aerossol.
-
-**Acabamento:** prefira **fosco ou acetinado**. Brilhante sobre papel
-glossy vira um espelho que denuncia "impressão caseira", e realça
-*bronzing* (aquele reflexo esverdeado/avermelhado em áreas escuras de
-corante). Sobre papel glossy qualquer irregularidade aparece; acetinado e
-fosco perdoam muito mais.
-
-**Teste em sobra sempre:** alguns sprays deixam o revestimento glossy
-leitoso ou pegajoso.
-
-### O que o verniz *não* resolve
-
-- **Desbotamento por UV.** Verniz com bloqueio UV ajuda, mas o corante
-  dessas EcoTank tem longevidade estimada em **poucos anos em exposição
-  direta**, contra décadas do pigmento. **Dentro de um livro fechado,
-  protegido da luz, a vida útil é muito maior** — o que joga a seu favor.
-- **Imersão.** Continua sendo *resistente* à água, não impermeável.
-  Respingo, dedo úmido, umidade de prensa: ok. Copo derrubado: não.
-- **Abrasão pesada.** Resistência inferior a filme de 30 µ — e slipcase é
-  a peça que mais sofre atrito da estante.
-- **Uniformidade de brilho** é difícil: casca de laranja, poeira.
-
-**O que o verniz *ganha* e a laminação não:** você pode envernizar **depois
-de colar** o painel na caixa, selando face, bordas e junção num filme
-contínuo. Isso mata o problema da "borda de papel nua", além de nunca gerar
-ruga. Se fizer assim, **mascare bem o revestimento da caixa**, senão ele
-também muda de aparência.
-
-### Fading por ozônio
-
-Corante é sensível a poluentes atmosféricos. O verniz reduz isso
-bastante — é um dos seus principais ganhos, e o menos mencionado.
-
----
-
-## Parte III — Laminação
-
-### Laminação a quente (BOPP térmico)
-
-#### Diagnóstico de rugas pela direção das linhas
-
-Olhe uma peça reprovada **contra a luz rasante**:
-
-| Padrão das linhas | Causa provável |
-|---|---|
-| **Paralelas ao sentido de saída** (compridas) | Filme frouxo — tensão de desenrolamento baixa demais; o filme sobra na largura e junta antes do *nip* |
-| **Transversais** (ondinhas atravessando) | Umidade escapando do papel, temperatura alta, ou velocidade × *tack* descompassados |
-| **Diagonais / espinha de peixe** | Alimentação torta ou eixo/rolo desalinhado |
-| **Sempre na mesma posição, peça após peça** | Mecânico: resíduo de adesivo no rolo ou rolo gasto — **limpe primeiro** |
-
-Esse último é o teste mais rápido de todos: se a linha reaparece no mesmo
-lugar, não é tensão nem umidade, é o rolo.
-
-#### Por que o papel glossy é o pior caso
-
-Papel glossy revestido é liso e não poroso: **o adesivo agarra
-instantaneamente e por inteiro na linha do *nip***. Em papel poroso o
-vínculo se forma mais gradualmente e o filme consegue acomodar uma sobra
-mínima. No glossy não: qualquer excesso de comprimento de filme fica
-travado no lugar como um vinco. Papel couché brilhante é notoriamente o
-substrato mais difícil para BOPP térmico.
-
-**E há o agravante da umidade**, que costuma ser o culpado principal:
-papel glossy 180 g/m² para inkjet (geralmente *cast-coated*, não RC) tem
-camada receptora **altamente higroscópica**, e você acabou de injetar
-tinta à base de água nela. A 100–110 °C essa água vira vapor e a folha
-muda de dimensão *enquanto está sendo colada*. Isso produz exatamente
-ondulações finas e palpáveis.
-
-**Teste que isola isso em 5 minutos:** lamine uma folha **em branco** do
-mesmo papel, nas mesmas condições.
-
-- Enrugou igual → é papel / tensão / temperatura.
-- Saiu lisa → é a **umidade da tinta**. Vá direto para a correção 1.
-
-#### Correções, em ordem de custo-benefício
-
-1. **Seque antes de laminar.** Deixe a impressão 24–48 h plana, sob peso,
-   em ambiente seco. Depois, **imediatamente antes**: passe a folha pela
-   laminadora dentro de um *carrier* (pasta de kraft dobrada), **sem
-   filme**. Isso pré-aquece, seca e faz a folha entrar plana e quente no
-   *nip*. Lamine em seguida, ainda morna. **É o truque de maior impacto
-   isolado.**
-2. **Abaixe a temperatura e a velocidade.** Contraintuitivo, mas o BOPP
-   térmico trabalha bem a **90–95 °C**, e 18 µ encolhe/relaxa com
-   facilidade perto de 110 °C. *Regra da indústria: quando se sobe a
-   temperatura, tem que reduzir a tensão do desenrolamento, senão o filme
-   encolhe e enruga.* Vá a 90 °C, velocidade mínima.
-3. **Ajuste a tensão do filme em incrementos mínimos.** Frouxo = o filme
-   junta antes do *nip* (rugas). Apertado = estica e relaxa ao esfriar
-   (tunelamento, vincos estreitos). **Alvo:** filme retesado, sem barriga,
-   mas o rolo ainda gira à mão com resistência leve. Confirme que o filme
-   toca o papel **só no *nip*** — contato antes do *nip* enruga sempre.
-4. **Troque 18 µ por 30–35 µ.** Provavelmente a melhor jogada. 18 µ é
-   finíssimo e elástico; 30–35 µ (ou, melhor, filme de **poliéster/PET**)
-   tem rigidez suficiente para não acumular sobra. E slipcase já pedia mais
-   resistência à abrasão mesmo — resolve dois problemas.
-5. **Alimente e esfrie corretamente:**
-   - Use ***carrier* sempre** (distribui pressão, mata rugas de borda de
-     entrada)
-   - Folha perfeitamente esquadrada; **nunca empurre nem puxe**. Segure os
-     cantos de trás e faça leve tração para trás e para os lados conforme
-     entra
-   - Alimente folhas **emendadas** (uma encostada na outra) ou com uma
-     placa-guia da mesma espessura, para o filme não vencer um degrau
-   - Saindo da máquina, **direto sob peso até esfriar completamente**.
-     BOPP quente relaxa ao esfriar; solto, ele ondula
-6. **Lamine grande, corte depois.** Rugas se concentram nas bordas e na
-   entrada. Lamine um A4 inteiro e recorte o painel da região boa do meio.
-   Simples e resolve muita coisa na prática.
-
-#### Espessuras
-
-| Espessura | Uso |
-|---|---|
-| 18 µ | Fino demais para superfície de contato. Aceitável em painel interno |
-| **30–40 µ** | **Slipcase, painel externo, qualquer coisa que sofre atrito** |
-| PET em vez de BOPP | Mais rígido, mais transparente, não amarela, mais estável |
-
-### Laminação a frio — a opção mais segura para corante
-
-Filme transparente autoadesivo (PET ou PVC + adesivo sensível à pressão,
-com *liner*), aplicado com rodo, **sem calor**. Resolve os dois problemas
-de uma vez: **zero calor** (nada de vapor, encolhimento ou ruga) e **zero
-água** (nada de corante migrando).
-
-- **Fácil de achar no Brasil:** "filme/vinil transparente para laminação a
-  frio", "BOPP a frio", em folhas A4 ou por metro em lojas de comunicação
-  visual.
-- **Prefira PET a PVC** (mais transparente, não amarela, mais estável) e
-  **adesivo acrílico**.
-- **Técnica:** fixe uma borda, vá descolando o *liner* progressivamente
-  enquanto puxa o rodo em ângulo baixo — igual película de celular.
-  Aplicação a seco: **nada de água com detergente aqui**.
-- Não é coincidência que guias de laminadoras digam que fotos inkjet
-  recém-impressas **requerem** laminação a frio.
-
-**Para impermeabilidade real:** laminação a frio nos **dois lados**, com
-selagem de 3–5 mm de borda a borda (**encapsulamento**). Aí sim é à prova
-d'água de verdade. É o caminho para cardápio, carta de vinhos, livro de
-hóspedes.
-
-**O truque para painéis de caixa:** lamine **só a face impressa**. O verso
-continua sendo papel cru, então o PVA adere normalmente. Você ganha
-impermeabilidade e resistência à abrasão sem perder a colagem.
-
-### Laminação vs. verniz — quando usar cada um
-
-| | Laminação | Verniz |
-|---|---|---|
-| **Painel plano, sem dobra** | ✅ ideal | ok |
-| **Wrap que precisa dobrar** | ❌ racha e descola nas dobras e viradas | ✅ mantém o papel flexível |
-| Resistência à abrasão | Superior (30 µ+) | Inferior |
-| Selar bordas e junção depois de montado | Não | ✅ sim, filme contínuo |
-| Risco de ruga | Real (a quente) / nulo (a frio) | Nulo |
-| Uniformidade | Alta | Difícil (casca de laranja, poeira) |
-
-**Ordem recomendada de ataque quando algo dá errado na laminação a
-quente:** teste a folha em branco para confirmar o diagnóstico →
-secagem + 90 °C + filme de 30 µ (mantém o fluxo atual e provavelmente
-resolve) → se quiser eliminar o risco de vez, laminação a frio → verniz
-solvente como plano B, ciente da abrasão.
-
----
-
-## Parte IV — Montagem de imagens no livro e na caixa
-
-### Papel para imagens: o glossy 180 g não serve
+### Papel: o glossy 180 g não serve
 
 Cinco motivos para não usar glossy no miolo ou em pranchas:
 
@@ -513,16 +280,13 @@ Cinco motivos para não usar glossy no miolo ou em pranchas:
 | Alto de gama | *Fine art* matte / algodão (Hahnemühle Photo Rag 188/308, Canson Rag Photographique) | Textura de gravura, casa com couro. Caro |
 | Meio-termo elegante | Acetinado / *luster* 200 g | Mais saturação que o fosco, sem o espelho do glossy |
 | Frontispício integrado ao miolo | O próprio Pólen/Chamois, em monocromia ou duotone | Continuidade visual perfeita, menos gama de cor |
-| Cardápio / B2B | Glossy ou RC **+ laminação** | Aqui o glossy faz sentido |
-| Painéis / *onlays* de caixa | Fotográfico fosco 160–200 g ou *fine art* matte | Pode ser encorpado, já que não dobra |
-| **Wrap com dobra** | Matte *coated* ou offset bom, **100–140 g**, fibra no sentido do wrap | Acima de ~160 g racha na dobra |
-| **Nunca** | Glossy, RC, qualquer coisa acima de ~160 g em área de dobra | — |
+| **Nunca** | Glossy ou RC no miolo | Os cinco motivos acima |
 
 **O fosco geralmente vence o glossy:** a perda de gama é pequena, e você
 ganha colagem, ausência de bloqueio e uma aparência de gravura que valoriza
 o objeto.
 
-### Técnica de montagem das pranchas
+### Montar as pranchas
 
 - ***Tip-in*:** cordão de PVA de **3–4 mm apenas na margem da lombada**,
   nunca a folha inteira. Deixe a prancha **2–3 mm menor** que o formato
@@ -533,43 +297,12 @@ o objeto.
 - **Prancha em página dupla** ou que precisa abrir plana: use *guard* de
   papel japonês em vez de colar direto.
 - **Papel de seda / glassine entre a prancha e a página oposta:** protege
-  do *offset* de tinta, protege do bloqueio, e é um daqueles detalhes de
-  luxo que o cliente nota imediatamente. Custa quase nada e parece
-  caríssimo.
+  do *offset* de tinta e do bloqueio. Custa quase nada e é um detalhe que
+  se nota.
 - **Prensa:** intercale as pranchas com papel siliconado ou glassine
   durante toda a prensagem.
 
-### Ordem de montagem para painel impresso em caixa
-
-> **A impressão entra por último.** Monte a caixa, revista com o material
-> de base, deixe secar e estabilizar 1–2 dias. **Só então** aplique o
-> painel como *onlay*, com adesivo seco. Assim a impressão nunca está
-> presente durante nenhuma fase úmida da construção.
-
-**Trate a borda de corte.** Se aparar laminado + papel juntos, sobra uma
-borda de papel nua — exatamente por onde a umidade ambiente entra e onde o
-corante desbota/sangra primeiro. Escolha uma:
-
-- **Encapsular:** deixe 4–5 mm de laminado sobrando em volta e sele os
-  dois lados. Borda de papel zero exposta.
-- **Aparar rente e selar o fio** com filete finíssimo de médium acrílico
-  ou cera microcristalina.
-- **Emoldurar / embutir** num rebaixo. Esteticamente melhor e protege
-  mecanicamente. Cantos de painel colado são pontos de início de
-  descolamento por atrito.
-
-**Duas notas de oficina:** passe a dobradeira sempre sobre papel
-siliconado, nunca direto no impresso; e deixe o painel colado sob prensa
-com papel siliconado por cima, porque **verniz mal curado gruda em tudo**.
-
-*(Construção das caixas, folgas e cartão: cap. 19.)*
-
-### O melhor uso da impressora: o interior da caixa
-
-O forro interno de uma clamshell nunca vê luz nem sofre atrito — é onde o
-corante dura décadas. Está no **cap. 19**.
-
-### Estratégia para cor no miolo
+### Cor no miolo
 
 O ponto fraco real do conjunto. Três saídas, em ordem de qualidade:
 
@@ -579,7 +312,7 @@ O ponto fraco real do conjunto. Três saídas, em ordem de qualidade:
    prancha impressa no mesmo papel do miolo.
 2. **Monocromia elegante:** gravuras em preto puro, ou duotone com o preto
    pigmentado + um segundo elemento aplicado à mão (aquarela, estêncil
-   cortado na Cameo, *hot foil*). **Isso vira estética de marca, não
+   cortado na Cameo, *hot foil*). **Vira estilo, não
    limitação.**
 3. Se um dia comprar A3, **procure na ficha técnica "pigmento nos quatro
    canais"** — normalmente linhas WorkForce Pro / DURABrite. Muitas EcoTank
@@ -594,58 +327,10 @@ O ponto fraco real do conjunto. Três saídas, em ordem de qualidade:
 
 ---
 
-## Protocolos de teste
+## Fontes
 
-### Para escolher adesivo/laminação de um painel
-
-Quinze minutos de preparo — e três semanas de observação, que valem cada
-dia. Imprima 2 folhas extras iguais. Lamine junto com a boa. Corte em tiras de
-3 × 8 cm e teste cada candidato:
-
-1. Cole cada tira num pedaço do **mesmo cartão/substrato** da caixa
-2. Prense 24 h sob peso
-3. Avalie a **24 h, 1 semana e 3 semanas**: sangramento (procure halo nos
-   magentas e cianos — são os mais fugitivos), manchamento, mudança de
-   brilho, bolhas, empenamento
-4. Teste o **cisalhamento**: tente descolar com a unha pela borda
-
-**Uma tira fica sem colar nenhum, guardada no escuro, como referência.**
-
-### Para escolher papel e verniz
-
-Imprima o mesmo alvo — foto com pele, céu, preto chapado e texto pequeno —
-em glossy, fosco 200 g e acetinado. Depois:
-
-| Teste | Como | O que procurar |
-|---|---|---|
-| Água sem verniz | Gota, 60 s, secar | Linha de base do estrago |
-| Água com verniz | 3 demãos, cura 72 h, gota 5 min | Sangramento, halo, inchaço |
-| Atrito úmido | Dedo úmido, 10 esfregões | Transferência de cor |
-| **Cola PVA** | Pincelada sobre a área impressa, vernizada | Sangramento, enrugamento |
-| **Bloqueio** | Duas amostras face a face, sob prensa, 48 h | Adesão / arranque de superfície |
-| Empeno | 24 h em ambiente normal | Curvatura (o glossy perde aqui) |
-| **Amarelecimento** | Metade coberta, janela, 30 dias | Verniz barato amarela primeiro |
-
-**O teste dos 30 dias vale começar hoje** — é o que define a marca de
-verniz definitiva da casa.
-
----
-
-## E a solução que apaga o problema pela raiz
-
-**Imprima o painel em laser/toner numa gráfica rápida.** Toner é plástico
-fundido: impermeável de nascença, sem umidade de tinta, dimensionalmente
-estável, lamina a quente sem drama, e aceita cola aquosa sem piscar. Custa
-alguns reais por folha.
-
-Se a fidelidade de cor servir, isso elimina a cadeia inteira de problemas:
-sensibilidade do corante, umidade na laminação, restrição de adesivo — e
-o desbotamento do corante sob luz ambiente ao longo de anos.
-
-> **Vale considerar sobretudo porque corante desbota.** Um slipcase fica
-> anos numa estante recebendo luz ambiente; verniz com UV e BOPP ajudam,
-> mas **nada salva corante de anos de luz difusa**. Toner ou tinta
-> pigmentada é o único conserto de verdade nesse ponto.
-
-**Se a peça é para valer, gaste os R$ 5 do teste em laser antes de
-decidir.**
+Não há fonte clássica para impressão a jato de tinta. Este capítulo vem
+das conversas de pesquisa e dos testes na L4360. As tintas de reposição
+(linha 504) são as do manual da Epson; que o preto é pigmentado e as cores
+são corante, confirme pelo teste da gota, na própria máquina. Modelos,
+preços e rendimentos são de 2026 e envelhecem rápido.

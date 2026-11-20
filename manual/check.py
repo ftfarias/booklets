@@ -64,7 +64,7 @@ PARTES = ["I · O que é um livro", "II · O miolo", "III · Da costura à capa"
           "Apêndices"]
 CAPS = ["Breve história do livro", "Anatomia do livro",
         "Tipos de encadernação", "Tipografia e editoração", "Papel",
-        "Impressão", "Cadernos e imposição", "Costura",
+        "Impressão do miolo", "Cadernos e imposição", "Costura",
         "Do miolo costurado ao bloco pronto", "Colas e adesivos",
         "Guardas", "Montagem da capa", "Capas em papel e tecido",
         "Capas em couro", "Douração e cortes",

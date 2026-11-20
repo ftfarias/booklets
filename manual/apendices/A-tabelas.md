@@ -118,21 +118,21 @@ Cada bloco indica o capítulo de origem, onde está o porquê.
 | Tampas de capa dura | papelão cinza (Holler/Paraná) | 1,5–2,5 mm (cap. 12) |
 
 
-## 6 · Impressão
+## 6 · Impressão do miolo
 
 *o que fazer em cada situação*
 
 | Situação | Resposta |
 |---|---|
 | Texto preto no miolo | K puro / "Preto e escala de cinza" no driver. Já é à prova d'água |
+| Qualidade no driver | Papel liso: Alta. Papel absorvente com página cheia: Normal |
+| Nitidez de texto máxima | Alinhamento de cabeça + alta velocidade **desligada** |
+| Folha ondulada | Secar 24 h separada, prensar 24–48 h, só então dobrar |
 | Cor no miolo | Evite. Se houver, 24 h de secagem e nenhuma cola encostando na área colorida |
-| Proteger impressão colorida dentro do livro | Verniz acrílico **spray, base solvente**, 3–4 demãos, cura 72 h |
-| Peça que vai encarar líquido de verdade | Laminação a frio (BOPP autoadesivo) nos dois lados, com encapsulamento de 3–5 mm |
-| Painel colorido em caixa/slipcase | Laminar só a face impressa (o verso fica papel cru e cola normalmente) |
-| Laminação a quente enrugando | Secar 24–48 h → 90 °C → filme 30–35 µ → *carrier* |
-| Nitidez de texto máxima | Alinhamento de cabeça + alta velocidade **desligada** + qualidade Alta |
+| Imagem colorida no livro | Prancha em papel fotográfico fosco, colada pela margem (*tip-in*) |
 | Papel couché comum | Não funciona. Incompatibilidade física, não questão de tempo |
 | Tiragem acima de ~5 exemplares | Terceirizar em laser/toner |
+| Capa, caixa ou painel impressos | Cap. 16 |
 
 
 ## 7 · Cadernos e imposição
@@ -294,14 +294,14 @@ Cada bloco indica o capítulo de origem, onde está o porquê.
 
 | Tarefa | Vale? | Por quê |
 |---|---|---|
-| **Vinil termoadesivo na capa** | ✅ | Título e geometria sem prensa de hot stamping |
+| **Vinil termoadesivo na capa** | ✅ | Título e geometria sem prensa de *hot stamping* |
 | **Print & cut** de painéis | ✅ | Sangria + corte na linha, cantos idênticos |
-| ***Onlay* de couro fino** | ✅ | Mosaico preciso que a mão não repete |
+| ***Onlay* de couro fino** | ✅ | Peças iguais, que a mão não repete |
 | **Estênceis e máscaras** | ✅ | Cor sem impressora, sem limite de formato |
 | **Gabaritos de construção** | ✅ | Caixas e furação repetíveis |
 | **Protótipo em cartão fino** | ✅ | Antes de gastar cartão bom |
-| Cortar cartão de 2–3 mm | ❌ | Não force; não tem torque |
-| Couro acima de ~2 mm | ❌ | Lâmina não vence |
+| Cortar cartão de 2–3 mm | ❌ | Força de corte insuficiente; à mão é mais rápido |
+| Couro acima de ~2 mm | ❌ | A lâmina não vence |
 
 
 ## 18 · Papéis decorados

@@ -35,7 +35,7 @@ passo até o objeto pronto, e depois o livro que já existe.
 |---|---|---|
 | 4 | [Tipografia e editoração](capitulos/04-tipografia-e-editoracao.md) | |
 | 5 | [Papel](capitulos/05-papel.md) | |
-| 6 | [Impressão](capitulos/06-impressao.md) | |
+| 6 | [Impressão do miolo](capitulos/06-impressao.md) | |
 | 7 | [Cadernos e imposição](capitulos/07-cadernos-e-imposicao.md) |  |
 | 8 | [Costura](capitulos/08-costura.md) | |
 | 9 | [Do miolo costurado ao bloco pronto](capitulos/09-do-miolo-ao-bloco.md) |  |
@@ -138,9 +138,9 @@ Fontes brutas em [`raw/`](raw/) — as conversas originais, íntegras, com
 
 | Pergunta | Onde |
 |---|---|
-| Como tiro um miolo profissional da L4360? | [6 — parte I](capitulos/06-impressao.md) |
-| Que verniz protege impressão colorida? | [6 — parte II](capitulos/06-impressao.md) |
-| Quando vale terceirizar a impressão? | [6 — parte I](capitulos/06-impressao.md) · [NEGOCIO](NEGOCIO.md) |
+| Como tiro um miolo profissional da L4360? | [6 — a L4360 e o miolo](capitulos/06-impressao.md) |
+| Que verniz protege impressão colorida? | [16 — capa, caixa e painel impressos](capitulos/16-foil-latao-e-impressao-na-capa.md) |
+| Quando vale terceirizar a impressão? | [6 — quando terceirizar](capitulos/06-impressao.md) · [NEGOCIO](NEGOCIO.md) |
 
 **Ofício e negócio**
 

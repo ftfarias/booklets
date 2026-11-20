@@ -155,7 +155,7 @@ Para um *wrap* inteiro sem emenda, mande um SRA3 para gráfica digital
 ## Proteger o painel impresso
 
 A caixa é o objeto mais manuseado do conjunto — muito mais que uma prancha
-interna. Com tinta corante (ver cap. 6), isso exige cuidado:
+interna. Com tinta corante (caps. 6 e 16), isso exige cuidado:
 
 | Risco | Por quê | Solução |
 |---|---|---|

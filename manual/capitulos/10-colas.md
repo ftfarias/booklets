@@ -562,7 +562,7 @@ corante numa camada própria e é muito mais resistente à migração que papel
 comum. Isso resolve metade do problema antes de qualquer adesivo.
 
 A ordem de montagem do painel, o tratamento da borda de corte, a abrasão e a
-alternativa de imprimir em laser estão no **cap. 6** (parte IV) e no **cap. 19**.
+alternativa de imprimir em laser estão no **cap. 16** e no **cap. 19**.
 
 ---
 

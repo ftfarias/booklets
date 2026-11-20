@@ -28,7 +28,7 @@ ORDEM = [
     (None, "II · O miolo"),
     ("capitulos/04-tipografia-e-editoracao.md",       "Tipografia e editoração"),
     ("capitulos/05-papel.md",                         "Papel"),
-    ("capitulos/06-impressao.md",                     "Impressão"),
+    ("capitulos/06-impressao.md",                     "Impressão do miolo"),
     ("capitulos/07-cadernos-e-imposicao.md",          "Cadernos e imposição"),
     ("capitulos/08-costura.md",                       "Costura"),
     ("capitulos/09-do-miolo-ao-bloco.md",             "Do miolo costurado ao bloco pronto"),

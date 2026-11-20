@@ -19,9 +19,9 @@ diagramação.
 
 | | |
 |---|---|
-| Capítulos revisados | 1 a 16 |
-| Próximo | 17 · Plotter de corte e técnicas modernas |
-| Depois | 18 a 21; apêndices B, C, F; `MANUAL.md` |
+| Capítulos revisados | 1 a 17 (e o 6 dividido, 19/11) |
+| Próximo | 18 · Papéis decorados |
+| Depois | 19 a 21; apêndices B, C, F; `MANUAL.md` |
 | No fim | itens gerais abaixo; passada de layout; cadernos e páginas em branco |
 | Erros de fato da leitura integral | todos corrigidos (17/11) |
 
@@ -93,9 +93,6 @@ capítulos já saem numerados (17/11); falta o resto:
 
 ### D. Estrutura
 
-- **Cap. 6:** um terço dele (verniz, laminação, painéis de caixa) é
-  acabamento de capa e caixa, não impressão do miolo. Mudaria para o cap.
-  16 ou o 19.
 - **Cap. 8:** a teoria do *swell* vem depois do exemplo que a usa.
 - **Cap. 21:** não passou pela reorganização (sem consulta rápida, recados
   pessoais, referências duvidosas).
@@ -108,23 +105,23 @@ capítulos já saem numerados (17/11); falta o resto:
 ### E. Voz e resíduos
 
 - **Restos das conversas de origem.** Caixas "⚠️ Divergência nas fontes: uma
-  conversa diz… outra responde…" (caps. 4 e 6, duas vezes); "eu evitaria",
+  conversa diz… outra responde…" (cap. 4); "eu evitaria",
   "sobre o Corfix…", "sua preocupação real" (cap. 18); "migrado do capítulo
-  de douração", "estavam no NEGOCIO.md e migraram para cá" (Fontes dos
-  caps. 16 e 19).
+  de douração", "estavam no NEGOCIO.md e migraram para cá" (Fontes do
+  cap. 19).
 - **Voz de negócio**, que você pediu fora do manual: seção "Preço" e várias
   frases do cap. 19; "cliente" nos caps. 18 e 20; "mata a margem" (ap. C);
   "decisão de preço" (ap. F).
-- **Arquivos que o leitor do livro não tem:** `NEGOCIO.md`, `../CLAUDE.md`,
-  `CAMINHOS.md`, `cover/check_vinyl.py` (caps. 17, 19; ap. C, F).
+- **Arquivos que o leitor do livro não tem:** `NEGOCIO.md`, `CAMINHOS.md`,
+  `../CLAUDE.md` (cap. 19; ap. C, F).
 - **Preços** espalhados pelo texto (ouro por grama, livrete, bolo, clichê,
   impressoras): todos de 2026. Ou vão para o apêndice C com a data, ou
   ganham o ano ao lado.
 - **Grafias e nomes que variam:** couché/couchê · verge/vergê ·
   grude/engrudo · canoa/tubo (lombada oca) · Scharffix/Scharf-Fix ·
   Derome/Derôme · percalux/Percalux · guarda colada/contraguarda ·
-  "caixa" para *case binding* e para as caixas do cap. 19 · "Parte I…IV"
-  dentro dos caps. 4 e 6.
+  "caixa" para *case binding* e para as caixas do cap. 19 · "Parte I…II"
+  dentro do cap. 4.
 
 ### F. Diagramação (PDF de 17/11, 296 páginas — os números já mudaram)
 
@@ -255,33 +252,18 @@ capítulos já saem numerados (17/11); falta o resto:
 - [melhoria] Sem seção **Fontes** (o que vem do fabricante, o que vem das
   conversas).
 
-### 6 · Impressão
+### 6 · Impressão do miolo
 
-- [conferir] "kit de tintas 504 (T504 / **linha 544**)": 504 e 544 são
-  linhas diferentes da Epson (a 544 é toda corante; a 504 tem o preto
-  pigmentado). Conferir no frasco e deixar um número só.
-- [conferir] "Jato de tinta pigmentado em papel de algodão é **o padrão** da
-  encadernação fina contemporânea" — é comum entre artistas do livro, mas
-  "o padrão" é forte (a edição fina tradicional é tipografia ou offset).
-- [melhoria — estrutura] Um terço do capítulo (verniz, laminação a quente e
-  a frio, painéis e *onlays* de caixa, *wrap* de *slipcase*) não é impressão
-  do miolo: é **acabamento de peça impressa para caixa e capa**. Na ordem
-  "como o livro é feito", cai melhor no cap. 19 (ou no 16, "impressão na
-  capa"), deixando aqui só o que o miolo precisa — máquina, driver, papel,
-  ondulação, cor no miolo, pranchas. O capítulo fica mais curto e o leitor
-  não encontra BOPP antes de aprender a dobrar um caderno.
-- [forma] Como no cap. 4, as seções se chamam "**Parte I…IV**" dentro de um
-  livro com Partes I–V.
-- [forma] Duas caixas "⚠️ Divergência nas fontes" ainda contam a história
-  ("uma conversa manda… outra conversa cancela… a recomendação persiste na
-  conversa de negócio"). O conteúdo já está resolvido: dizer só a
-  conclusão. Os modelos e preços de impressora a laser envelhecem rápido e
-  não fazem falta.
+Dividido em 19/11 (registro abaixo). Ficou:
+
 - [forma] Grafias que variam entre os capítulos: **couché** (aqui) ×
   **couchê** (cap. 5); **vergê** (aqui) × **verge** (cap. 5). Escolher uma.
-- [melhoria] Nota do cap. 5 sobre Markatto: este capítulo já distingue
+- [melhoria] Nota do cap. 5 sobre Markatto: este capítulo distingue
   "Markatto Concetto / Sumo (texturado)" da versão lisa — é só levar a
   mesma distinção para o cap. 5.
+- [conferir] Que o preto da linha 504 é pigmentado e as cores são corante:
+  o manual da Epson confirma a linha 504 na L4360, mas não achei a ficha
+  que diga o tipo de tinta. O teste da gota, no próprio capítulo, decide.
 
 ### 7 · Cadernos e imposição
 
@@ -438,31 +420,21 @@ Revisado em 17/11 (registro abaixo). Ficou:
 
 ### 16 · Foil, latão e impressão na capa
 
-Revisado em 19/11 (registro abaixo). Ficou:
+Revisado em 19/11; recebeu a parte de capa, caixa e painel impressos do
+cap. 6, e o título passou a corresponder ao conteúdo. Ficou:
 
-- [decidir] **O título.** "Impressão na capa" pode ser lida como
-  impressão a quente (que o capítulo trata) ou como capa impressa (que ele
-  não trata — está no cap. 6). Ou o título vira "Foil, latão e clichê",
-  ou o capítulo recebe o bloco de verniz, laminação e painéis do cap. 6
-  (ver "D. Estrutura").
 - [conferir] As temperaturas em graus e a faixa do corino continuam sem
   fonte; estão marcadas como ponto de partida.
+- [conferir] A parte de capa impressa veio sem revisão de conteúdo: é das
+  conversas (verniz, BOPP, produtos, "6–10 camadas" da Golden). Confere-se
+  junto com o cap. 19, que repete parte dela.
 
 ### 17 · Plotter de corte e técnicas modernas
 
-- [incoerência leve] Gabaritos: "marcação de nervuras — **espaçamento
-  crescente** (cap. 8)". O cap. 8, depois da revisão, diz outra coisa:
-  cinco divisões iguais e a do pé um pouco maior.
-- [forma] O texto impresso cita arquivos que o leitor do livro não tem como
-  abrir: `NEGOCIO.md`, `../CLAUDE.md`, `cover/check_vinyl.py`. É o mesmo
-  caso do "manual/raw/" que você tirou da página 2. Para você tudo bem;
-  para outro leitor, é ruído.
-- [melhoria] O capítulo termina dizendo que "datar as observações ajuda" —
-  e não data nenhuma. Uma linha: "observações de 2025–2026, Silhouette
-  Cameo, EasyPress Mini".
-- [conferir] Presets da EasyPress Mini "~130/155/205 °C": a Cricut publica
-  as três posições como faixas (baixa ~140, média ~160, alta ~205 °C).
-  Se os seus números são medidos com termômetro, vale dizer "medidos".
+Revisado em 19/11 (registro abaixo). Ficou:
+
+- [conferir] O papel colado no grão como suporte de corte na plotter é
+  inferência minha a partir de Cockerell; está marcado "a testar".
 
 ### 18 · Papéis decorados
 
@@ -517,15 +489,15 @@ Revisado em 19/11 (registro abaixo). Ficou:
   livro (altura, largura, espessura + folga + cartão + forro). "As três
   medidas da bandeja" promete três e descreve a relação entre duas
   bandejas; a terceira peça — a capa que une as bandejas — não aparece.
-- [melhoria — repetição] "Lamine só a face impressa: o verso continua papel
-  cru e o PVA adere" está, quase igual, na consulta rápida do cap. 6, na
-  seção de laminação a frio do cap. 6 e aqui. É mais um motivo para trazer
-  para cá (ou para o 16) o bloco de verniz/laminação do cap. 6.
+- [melhoria — repetição] "Proteger o painel impresso" repete o que agora
+  está no cap. 16 (verniz, laminação só na face impressa, laminação ×
+  verniz). Aqui basta a tabela de riscos e a remissão.
 - [forma — voz de negócio] "O item de maior margem do catálogo", "venda
   clamshell e cobre por isso", "o momento que o cliente fotografa", a seção
   **Preço** inteira e a remissão ao `NEGOCIO.md`. Você pediu o negócio em
   documento separado; isto é o que sobrou dele no manual. As Fontes também
   contam a migração ("estavam no NEGOCIO.md e migraram para cá").
+
 ### 20 · Reencadernação
 
 - [conferir] Brochura colada, saída 2 — "cadernos falsos: agrupe as folhas
@@ -1429,4 +1401,56 @@ tem fonte diz qual, e o resto está marcado.
   com tipos, não com vinco. Temperaturas marcadas como ponto de partida.
   Saíram "argumento de venda", "linha simples / linha premium" e a nota
   de processo nas Fontes; `---` duplicado. Seção **Fontes** refeita.
+
+### 6 · Impressão → Impressão do miolo (19/11/2026)
+
+Decisão sua: o cap. 6 fica só com o miolo; a impressão para fora dele vai
+para o cap. 16.
+
+- **[estrutura]** Saíram para o cap. 16, seção "Capa, caixa e painel
+  impressos": verniz sobre corante, laminação a quente e a frio,
+  laminação × verniz, papel para capa e painel, montagem de painel em
+  caixa, os dois testes de painel e a "solução pela raiz" (laser). Ficaram
+  no 6: a máquina, o driver, o arquivo, o papel, a ondulação, terceirizar
+  e as imagens do miolo (papel das pranchas, montagem, cor).
+- [forma] Título "Impressão" → **"Impressão do miolo"** (`build.py`,
+  `check.py`, `MANUAL.md`). Regra nova de abertura (a antiga era a do
+  verniz, que foi junto para o 16); consulta rápida só com o miolo, mais
+  as linhas de qualidade no driver, ondulação e pranchas.
+- [forma] "Parte I…IV" → seções sem número ("A L4360 e o miolo",
+  "Imagens no miolo").
+- [forma] As duas caixas "Divergência nas fontes" viraram a conclusão
+  direta: qualidade Alta ou Normal depende do papel; laser serve a volume e
+  custo, não ao livro como objeto. Saíram os modelos e preços de laser e
+  "sobem o ticket".
+- **[erro]** "Kit 504 (T504 / linha 544)" → linha **504**: o manual da
+  Epson lista a T504 para a L4360; a 544 é de outros modelos.
+- [conferir → corrigido] "Jato de tinta pigmentado em papel de algodão é
+  o padrão da encadernação fina" → "é comum entre os livros de artista".
+- [forma — voz] "detalhe de luxo que o cliente nota", "estética de marca",
+  "cardápio / B2B" saíram. Seção **Fontes** criada (não havia).
+- Remissões acertadas: cap. 10 ("cap. 6, parte IV" → cap. 16), cap. 17 e
+  cap. 19.
+
+### 17 · Plotter de corte e técnicas modernas (19/11/2026)
+
+- **[erro] EasyPress Mini.** "Presets de ~130/155/205 °C" → as faixas que
+  a Cricut publica: baixa ~125–145, média ~150–180, alta ~185–205 °C. A
+  conclusão (todas acima dos 110–120 °C do couro) continua.
+- **[incoerência]** Gabarito de nervos com "espaçamento crescente (cap. 8)"
+  → as divisões da lombada do cap. 8.
+- **[conteúdo] *Onlay*.** Entrou o método de Cockerell ("Inlaying on
+  leather"): couro muito fino, punções de aço no formato dos ferros —
+  que é o que a plotter substitui —, papel colado no grão para o couro
+  não esticar ao receber o engrudo, chanfrar, engrudo e prensa; e papel
+  japonês em vez de couro branco. R&E (ONLAY): em uso na Inglaterra no
+  século XVII. "A técnica da encadernação Art Déco" virou "a Art Déco o
+  levou ao limite".
+- [forma] Laser: o aviso sobre couro cromado, que estava repetido, ficou
+  só na tabela; o do corino ganhou linha própria.
+- [forma] Arquivos que o leitor não tem (`NEGOCIO.md`, `../CLAUDE.md`,
+  `cover/check_vinyl.py`) saíram; o método da medição a 600 dpi ficou.
+  O capítulo agora se data (2026, Silhouette Cameo, EasyPress Mini).
+- [forma] Foil digital: a versão caseira com laminadora e foil para
+  toner. Clichê: "com foil ou com ouro genuíno". Seção **Fontes** refeita.
 

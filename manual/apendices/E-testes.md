@@ -55,12 +55,12 @@ leia.
    sempre — não é lei.**
 
 
-## 6 · Impressão
+## 6 · Impressão do miolo
 
 ### Ondulação: o protocolo completo
 
 1. Papel de 90 g/m² ou mais, com **fibra na direção certa**
-2. Qualidade adequada à absorvência do papel (ver a divergência acima)
+2. Qualidade adequada à absorvência do papel (Camada 1)
 3. Folhas secando **24 h, separadas ou intercaladas** — nunca empilhadas
    coladas
 4. **Prensa entre tábuas, 24–48 h**, antes de dobrar

@@ -66,17 +66,6 @@
 | Tampas de capa dura | papelão cinza (Holler/Paraná) | 1,5–2,5 mm (cap. 12) |
 
 
-## 6 · Impressão
-
-**Espessuras**
-
-| Espessura | Uso |
-|---|---|
-| 18 µ | Fino demais para superfície de contato. Aceitável em painel interno |
-| **30–40 µ** | **Slipcase, painel externo, qualquer coisa que sofre atrito** |
-| PET em vez de BOPP | Mais rígido, mais transparente, não amarela, mais estável |
-
-
 ## 8 · Costura
 
 **Bitola de linho — a numeração é invertida**
@@ -199,6 +188,22 @@
 | Tecido, percalina | 120–150 °C | |
 | Papel e cartão | 120–140 °C | |
 | **Corino / PVC** | ~100–120 °C, só em prensa | Foil para sintéticos, toque curto. **Ferro de mão, nunca**: o PVC derrete e gruda |
+
+**Espessuras**
+
+| Espessura | Uso |
+|---|---|
+| 18 µ | Fino demais para superfície de contato. Aceitável em painel interno |
+| **30–40 µ** | **Slipcase, painel externo, qualquer coisa que sofre atrito** |
+| PET em vez de BOPP | Mais rígido, mais transparente, não amarela, mais estável |
+
+**Papel para capa e painel**
+
+| Uso | Papel | Por quê |
+|---|---|---|
+| Painel, *onlay* de caixa | Fotográfico fosco 160–200 g ou *fine art* matte | Pode ser encorpado: não dobra |
+| **Capa ou *wrap* com dobra** | Matte *coated* ou offset bom, **100–140 g**, fibra no sentido da dobra | Acima de ~160 g racha na dobra |
+| **Nunca** | Glossy ou RC; qualquer coisa acima de ~160 g onde dobra | Os motivos do glossy estão no cap. 6 |
 
 
 ## 19 · Caixas, estojos e proteção
